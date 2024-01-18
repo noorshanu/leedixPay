@@ -1,56 +1,99 @@
-import React from 'react'
+import React from "react";
 
 function AboutFun() {
   return (
-    <section>
-    <div className='  container-wrapper p-6'>
-        <div className=' flex justify-evenly items-center'>
+    <section className=" mb-[6rem] mt-[3rem]">
+      <div className="  container-wrapper p-6">
+        <div className=" flex justify-evenly items-center mb-[7rem]">
+          <div className=" text-center">
+            <img
+              src="images/icons/icon1.png"
+              alt=""
+              className=" mx-auto mb-5"
+            />
+            <h2 className=" font-sohaBold text-3xl font-bold mb-1">
+              LeedixPay
+            </h2>
+            <p>
+              You don’t need a special <br /> device or skills
+            </p>
+          </div>
 
-            <div>
-                <img src="images/icons/icon1.png" alt="" />
-                <p>No setup cost </p>
-                <p>No subscription fee.</p>
-            </div>
+          <div className=" text-center">
+            <img
+              src="images/icons/icon1.png"
+              alt=""
+              className=" mx-auto mb-5"
+            />
+            <h2 className=" font-sohaBold text-3xl font-bold mb-1">
+              LeedixPay
+            </h2>
+            <p>
+              You don’t need a special <br /> device or skills
+            </p>
+          </div>
 
-            <div>
-            <img src="images/icons/icon2.png" alt="" />
-                <p>No setup cost </p>
-                <p>No subscription fee.</p>
-            </div>
-
-            <div>
-            <img src="images/icons/icon3.png" alt="" />
-                <p>No setup cost </p>
-                <p>No subscription fee.</p>
-            </div>
-
+          <div className=" text-center">
+            <img
+              src="images/icons/icon3.png"
+              alt=""
+              className=" mx-auto mb-5"
+            />
+            <h2 className=" font-sohaBold text-3xl font-bold mb-1">
+              LeedixPay
+            </h2>
+            <p>
+              You don’t need a special <br /> device or skills
+            </p>
+          </div>
         </div>
 
-        <div className=' flex justify-evenly items-center'>
+        <div className=" flex justify-evenly items-center">
+        <div className=" text-center">
+            <img
+              src="images/icons/icon4.png"
+              alt=""
+              className=" mx-auto mb-5"
+            />
+            <h2 className=" font-sohaBold text-3xl font-bold mb-1">
+              LeedixPay
+            </h2>
+            <p>
+              You don’t need a special <br /> device or skills
+            </p>
+          </div>
 
-<div>
-    <img src="images/icons/icon1.png" alt="" />
-    <p>No setup cost </p>
-    <p>No subscription fee.</p>
-</div>
+          <div className=" text-center">
+            <img
+              src="images/icons/icon6.png"
+              alt=""
+              className=" mx-auto mb-5"
+            />
+            <h2 className=" font-sohaBold text-3xl font-bold mb-1">
+              LeedixPay
+            </h2>
+            <p>
+              You don’t need a special <br /> device or skills
+            </p>
+          </div>
 
-<div>
-<img src="images/icons/icon2.png" alt="" />
-    <p>No setup cost </p>
-    <p>No subscription fee.</p>
-</div>
-
-<div>
-<img src="images/icons/icon3.png" alt="" />
-    <p>No setup cost </p>
-    <p>No subscription fee.</p>
-</div>
-
-</div>
-
-    </div>
-   </section>
-  )
+          <div className=" text-center">
+            <img
+              src="images/icons/icon7.png"
+              alt=""
+              className=" mx-auto mb-5"
+            />
+            <h2 className=" font-sohaBold text-3xl font-bold mb-1">
+              LeedixPay
+            </h2>
+            <p>
+              You don’t need a special <br /> device or skills
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default AboutFun
+export default AboutFun;

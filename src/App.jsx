@@ -9,7 +9,7 @@ function App() {
       <Router>
         <ScrollToTop />
 
-        <div className="mb-24">
+        <div className="">
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>

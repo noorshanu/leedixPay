@@ -6,6 +6,8 @@ import Cta from "../sections/Cta";
 import AboutFun from "../sections/AboutFun";
 import Footer from "../sections/Footer";
 import Lexipay from "../sections/Lexipay";
+import Invest from "../sections/Invest";
+import Features from "../sections/Features";
 function Home() {
   return (
     <>
@@ -14,7 +16,7 @@ function Home() {
         <div className="mb-2 relative z-10">
         <img
           src="/images/mask.png"
-          className="absolute top-0 right-0 w-auto h-full  -z-10 max-lg:hidden"
+          className="absolute top-0 right-0 w-auto h-[92%]  -z-10 max-lg:hidden"
           alt=""
         />
         <Navbar />
@@ -34,6 +36,10 @@ function Home() {
 
         <div className="mb-10">
        <Lexipay/>
+        </div>
+        <div className="mb-10">
+       <Invest/>
+       <Features/>
         </div>
 
         <Footer/>

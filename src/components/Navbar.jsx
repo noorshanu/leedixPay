@@ -46,7 +46,7 @@ export default function Navbar() {
               className="font-medium cursor-pointer"
               onClick={() => setSidebarVisibility(false)}
             >
-              {"Staking"}
+              Staking
             </Typography>
             <Typography
               onClick={closeSidebar}
@@ -54,7 +54,7 @@ export default function Navbar() {
               variant="sm"
               className="font-medium cursor-pointer"
             >
-              {"About"}
+              About
             </Typography>
 
             <Typography
@@ -86,12 +86,12 @@ export default function Navbar() {
               variant="sm"
               className="font-medium cursor-pointer"
             >
-              "FAQS"
+              FAQS
             </Typography>
 
-            {/* <Button className="rounded-md text-sm h-10 mt-4 mb-6 lg:hidden">
-              {t("Buy ETHETF Token")}
-            </Button> */}
+            <button className=" btn-nav rounded-md text-sm h-10 mt-4 mb-6 text-white ">
+              Buy ETHETF Token
+            </button>
 
             <div className="flex max-lg:space-x-8 space-x-4 justify-center max-lg:[&>*]:invert">
               <a

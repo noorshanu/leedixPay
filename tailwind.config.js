@@ -4,15 +4,18 @@ export default {
   theme: {
     fontFamily: {
       "open-sans": "'Open Sans', sans-serif",
-      poppins: "'Poppins', sans-serif",
+      sohaReg: "soha-reg",
+      sohaMed: "soha-med",
+      sohaBold: "soha-bold",
+      sohaThin: "soha-thin",
     },
     colors: {
       white: "white",
       black: "black",
       transparent: "transparent",
       body: "#fff",
-      text: "#2d3439",
-      "text-2": "#20262b",
+      text: "#000",
+     
       green: "#0072ff",
       // green: "#1ef93b",
       "active-blue": "rgba(84,119,255,.61)",
