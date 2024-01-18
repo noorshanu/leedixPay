@@ -5,6 +5,7 @@ import PutMoney from "../sections/PutMoney";
 import Cta from "../sections/Cta";
 import AboutFun from "../sections/AboutFun";
 import Footer from "../sections/Footer";
+import Lexipay from "../sections/Lexipay";
 function Home() {
   return (
     <>
@@ -29,6 +30,10 @@ function Home() {
 
         <div className="mb-10">
        <AboutFun/>
+        </div>
+
+        <div className="mb-10">
+       <Lexipay/>
         </div>
 
         <Footer/>
