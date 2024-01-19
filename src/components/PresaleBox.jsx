@@ -1,72 +1,19 @@
-import { useState, useEffect } from "react";
+
 import Button from "./Button";
 import Typography from "./Typography";
-import { useAccount, useContractRead } from "wagmi";
-import ProgressBar from "components/ProgressBar";
-import ReferralModal from "./ReferralModal";
-import ConnectWalletOptionsModal from "./ConnectWalletOptionsModal";
-import { PRESALEABI, STAKINGABI } from "../contract/ABI";
-import { formatEther } from "viem";
-import { PresaleContract, StakingContract } from "../contract/Address";
+
+import ProgressBar from "./ProgressBar";
+
+
+
+
+
 import Timer from "./Timer";
-import TransitionWrapper from "./TransitionWrapper";
-import { MdInfoOutline } from "react-icons/md";
+
 import PresaleTabsAndInput from "./PresaleTabsAndInput";
 
 function PresaleBox() {
-  const [isWalletModalOpen, setWalletModal] = useState(false);
-  const [isReferralModalOpen, setReferralModal] = useState(false);
-  const { address } = useAccount();
-
-  const HARD_CAP = 489600; // Hardcap in USDT
-  const [percentage, setPercentage] = useState();
-  const [modalInfoText, setModalInfoText] = useState(null);
-  const [isInfoModalOpen, setInfoModalOpen] = useState(false);
-  const { isConnected } = useAccount();
-  const [moneyRaised, setMoney] = useState(0);
-  const handleModalInfoClose = () => setInfoModalOpen(false);
-
-  const { data: usdRaisedr } = useContractRead({
-    address: PresaleContract?.toString(),
-    abi: PRESALEABI,
-    functionName: "usdRaised",
-    chainId: 1,
-    onError(error) {
-      console.log("Error", error);
-    },
-  });
-
-  const { data: staked } = useContractRead({
-    address: StakingContract?.toString(),
-    abi: STAKINGABI,
-    functionName: "poolStakers",
-    chainId: 1,
-    args: [address],
-    enabled: address ? true : false,
-    onError(error) {
-      console.log("Error", error);
-    },
-  });
-
-  const { data: getETFdata } = useContractRead({
-    address: PresaleContract?.toString(),
-    abi: PRESALEABI,
-    functionName: "userDeposits",
-    args: [address],
-    enabled: address ? true : false,
-    chainId: 1,
-  });
-
-  useEffect(() => {
-    console.log(usdRaisedr);
-    if (usdRaisedr && usdRaisedr !== undefined) {
-      setMoney(usdRaisedr);
-      const usdRaised = formatEther(usdRaisedr);
-      const progressPercentage = ((Number(usdRaised) + 400200) / HARD_CAP) * 100;
-      console.log(progressPercentage);
-      setPercentage(progressPercentage);
-    }
-  }, [address, usdRaisedr, isConnected, staked]);
+ 
 
   return (
     <>
@@ -85,35 +32,23 @@ function PresaleBox() {
 
         <main className="px-5">
           <div className="mb-4">
-            <ProgressBar progress={percentage} />
+            <ProgressBar progress='20%' />
           </div>
 
           <div className="space-y-2.5">
             <Typography variant="xs" className="text-center text-white/50">
               <span className="font-bold text-white">USDT RAISED:</span> $
-              {(
-                Number(formatEther(moneyRaised?.toString())) + 400200
-              ).toLocaleString("en-US")}{" "}
+           
               / $489,600.00
             </Typography>
             <Typography variant="xs" className="text-center text-white/50">
               <span className="text-white">YOUR PURCHASED ETHETF</span> ={" "}
-              {getETFdata ? formatEther(getETFdata) : 0}{" "}
-              <button
-                onClick={() => {
-                  setInfoModalOpen(true);
-                  setModalInfoText(
-                    "Your total purchased tokens are all tokens purchased using the connected wallet. This includes all staked and unstaked tokens purchased on Ethereum."
-                  );
-                }}
-                className="inline-block align-middle text-[1.8em] ml-[.4em] text-green relative bottom-[.1em]"
-              >
-                <MdInfoOutline />
-              </button>
+         
+            
             </Typography>
             <Typography variant="xs" className="text-center text-white/50">
               <span className="text-white">YOUR STAKED ETHETF</span> ={" "}
-              {staked ? formatEther(staked[0]) : 0}
+              {/* {staked ? formatEther(staked[0]) : 0}
               <button
                 onClick={() => {
                   setInfoModalOpen(true);
@@ -124,19 +59,19 @@ function PresaleBox() {
                 className="inline-block align-middle text-[1.8em] ml-[.4em] text-green relative bottom-[.1em]"
               >
                 <MdInfoOutline />
-              </button>
+              </button> */}
             </Typography>
           </div>
 
-          {isConnected ? (
+         
             <Button
-              onClick={() => setReferralModal(true)}
+          
               variant="green-outlined"
               className="text-base w-fit mx-auto mt-4 mb-5 rounded-lg px-4 h-[36px]"
             >
               Refer and Earn
             </Button>
-          ) : null}
+     
 
           <div className="flex items-center space-x-10 mt-4 mb-6">
             <div className="flex-1 h-[1px] bg-white opacity-20"></div>
@@ -150,7 +85,7 @@ function PresaleBox() {
         </main>
       </aside>
 
-      <TransitionWrapper
+      {/* <TransitionWrapper
         open={isInfoModalOpen}
         handleClose={handleModalInfoClose}
         className="max-w-[30rem] w-[90%] max-h-[90vh] overflow-auto"
@@ -169,17 +104,11 @@ function PresaleBox() {
             Ok
           </Button>
         </div>
-      </TransitionWrapper>
+      </TransitionWrapper> */}
 
-      <ReferralModal
-        open={isReferralModalOpen}
-        handleClose={() => setReferralModal(false)}
-      />
+    
 
-      <ConnectWalletOptionsModal
-        open={isWalletModalOpen}
-        handleClose={() => setWalletModal(false)}
-      />
+    
     </>
   );
 }

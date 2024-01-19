@@ -1,6 +1,6 @@
-import useDelayUnmount from "hooks/useDelayUnmount";
+import useDelayUnmount from "../hooks/useDelayUnmount";
 import Portal from "./Portal";
-import OutsideClickDetector from "hooks/OutsideClickDetector";
+import OutsideClickDetector from "../hooks/OutsideClickDetector";
 
 function TransitionWrapper({ children, className, open, handleClose }) {
   const shouldRender = useDelayUnmount(open, 300);

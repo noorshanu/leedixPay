@@ -1,4 +1,5 @@
 import React from "react";
+import PresaleBox from "../components/PresaleBox";
 
 function PutMoney() {
   return (
@@ -6,9 +7,8 @@ function PutMoney() {
       <div className="container-wrapper">
         <div className=" flex items-center justify-between gap-6">
          <div className=" max-w-lg w-full">
-         <div className="bg-black h-[700px]">
-            fghfgh
-          </div>
+        
+        <PresaleBox/>
          </div>
 
           <div>
