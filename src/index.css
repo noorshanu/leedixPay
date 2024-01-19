@@ -51,7 +51,7 @@
   }
 
   .container-wrapper {
-    @apply max-w-[1140px] min-[1440px]:max-w-[1260px] w-full mx-auto px-4 lg:px-2;
+    @apply max-w-[1140px] min-[1440px]:max-w-[1300px] w-full mx-auto px-4 lg:px-2;
   }
 }
 
@@ -152,4 +152,20 @@
 
   background: #343a3a;
   background: linear-gradient(97deg, #343a3a 0%, #1b1b1b 100%);
+}
+
+.hero-input{
+  border-color: #707070;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+.btn-hero{
+  border-color: #000000;
+border-width: 1px;
+border-style: dashed;
+border-radius: 3px;
+
+background: #1a4093
 }
