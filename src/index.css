@@ -169,3 +169,15 @@ border-radius: 3px;
 
 background: #1a4093
 }
+.presale-bg{
+  border-color: #000000;
+border-width: 1px;
+border-style: dashed;
+border-radius: 21px;
+
+
+background: #191919;
+background: linear-gradient(-90deg, 
+#191919 0.00%, 
+#353b3b 100.00%);
+}

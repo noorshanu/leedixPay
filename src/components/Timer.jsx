@@ -94,7 +94,7 @@ const Timer = () => {
 
   return (
     
-   <div className="bg-text/50 py-4 grid grid-cols-4 gap-2 px-5 mb-5">
+   <div className=" py-4 grid grid-cols-4 gap-2 px-5 mb-5">
         <TimeBox time={days} title="Days" />
         
         <TimeBox time={hours} title="Hours" />

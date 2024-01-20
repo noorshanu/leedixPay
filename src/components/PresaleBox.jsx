@@ -17,17 +17,17 @@ function PresaleBox() {
 
   return (
     <>
-      <aside className="bg-text-2 rounded-3xl pb-8 relative z-10" id="presale">
-        <img
+      <aside className=" rounded-3xl pb-8 relative z-10 presale-bg" id="presale">
+        {/* <img
           src="/images/logo-floating.svg"
           className="absolute bottom-0 left-0 max-sm:h-16 h-24 pointer-events-none select-none -z-10"
           alt=""
-        />
+        /> */}
 
-        <Typography variant="sm" className="pt-3 text-center text-white mb-3">
-          Buy Ethereum ETF Token Today
+        <Typography variant="sm" className="py-3 px-5 text-center text-white mb-3">
+          <img src="images/presale.png" alt="" />
         </Typography>
-
+          <h2 className="px-5 text-white font-sohaBold text-xl pb-3">ICO Ends in :</h2>
         <Timer />
 
         <main className="px-5">
@@ -41,36 +41,25 @@ function PresaleBox() {
            
               / $489,600.00
             </Typography>
-            <Typography variant="xs" className="text-center text-white/50">
+            {/* <Typography variant="xs" className="text-center text-white/50">
               <span className="text-white">YOUR PURCHASED ETHETF</span> ={" "}
          
             
             </Typography>
             <Typography variant="xs" className="text-center text-white/50">
               <span className="text-white">YOUR STAKED ETHETF</span> ={" "}
-              {/* {staked ? formatEther(staked[0]) : 0}
-              <button
-                onClick={() => {
-                  setInfoModalOpen(true);
-                  setModalInfoText(
-                    "Unclaimed ETHETF that was bought using ETH or ERC-20 USDT can be staked now. Staking for ETHETF that was bought using ETH and Usdt can be staked once the presale ends. Please note that all early staked tokens can be withdrawn 7 days after token claiming goes live, which will happen after the presale has concluded."
-                  );
-                }}
-                className="inline-block align-middle text-[1.8em] ml-[.4em] text-green relative bottom-[.1em]"
-              >
-                <MdInfoOutline />
-              </button> */}
-            </Typography>
+              
+            </Typography> */}
           </div>
 
          
-            <Button
+            {/* <Button
           
               variant="green-outlined"
               className="text-base w-fit mx-auto mt-4 mb-5 rounded-lg px-4 h-[36px]"
             >
               Refer and Earn
-            </Button>
+            </Button> */}
      
 
           <div className="flex items-center space-x-10 mt-4 mb-6">

@@ -12,7 +12,6 @@ import { toast } from "react-toastify";
 import { twMerge } from "tailwind-merge";
 
 function PresaleTabsAndInput() {
-
   const [tab, setTab] = useState(1);
   const [inputIcon, setInputIcon] = useState("/images/icons/eth.svg");
   const [paymentMethod, setPaymentMethod] = useState("ETH");
@@ -75,14 +74,14 @@ function PresaleTabsAndInput() {
           CARD
         </TabButton>
       </div>
-      <div className="flex items-center space-x-10 mt-4 mb-6">
+      {/* <div className="flex items-center space-x-10 mt-4 mb-6">
         <div className="flex-1 h-[1px] bg-white opacity-20"></div>
         <Typography variant="sm" className="text-white font-medium">
           ETH balance
         </Typography>
         <div className="flex-1 h-[1px] bg-white opacity-20"></div>
-      </div>
-      <div className="mb-4">
+      </div> */}
+      {/* <div className="mb-4">
         <img
           src="/images/logo-circular-black.svg"
           className="max-w-[3rem] w-full mx-auto mb-3 invert animate-spin"
@@ -106,8 +105,8 @@ function PresaleTabsAndInput() {
           All staked tokens can be withdrawn 30 days after tokens claming goes
           live , which will happen after the presale has concluded.
         </Typography>
-      </div>
-      <div className="grid sm:grid-cols-2 gap-4 mb-5">
+      </div> */}
+      <div className=" gap-4 mb-5">
         <div>
           <div className="mb-2 flex justify-between items-center">
             <Typography
@@ -119,11 +118,7 @@ function PresaleTabsAndInput() {
 
             <button className="text-green font-semibold text-xs">Max</button>
           </div>
-          <PresaleInput
-            placeholder="0"
-            icon={inputIcon}
-           
-          />
+          <PresaleInput placeholder="0" icon={inputIcon} />
         </div>
 
         <div>
@@ -136,24 +131,23 @@ function PresaleTabsAndInput() {
 
           <PresaleInput
             placeholder=""
-       
             disabled
             icon="/images/logo-circular-black.svg"
             iconClassName="invert"
           />
         </div>
 
-        <Button
+        {/* <Button
           variant="green"
           className="text-sm font-semibold"
           onClick={() => buyNow()}
         >
           Buy Ethereum ETF Token Now
-        </Button>
+        </Button> */}
 
         <Button
           variant="green"
-          className="text-sm font-semibold px-0 space-x-2 col-span-2"
+          className="text-sm font-semibold px-0 space-x-2 col-span-2 w-full"
           onClick={() => open()}
           startIcon={
             <img
@@ -166,7 +160,7 @@ function PresaleTabsAndInput() {
           Connect Wallet!
         </Button>
 
-        <Typography
+        {/* <Typography
           as="a"
           href="https://widget.wert.io/default/widget/?commodity=ETH%3AEthereum"
           target="_blank"
@@ -174,7 +168,7 @@ function PresaleTabsAndInput() {
           className="w-fit block mx-auto underline text-white hover:no-underline cursor-pointer"
         >
           Not enough ETH? Top up now
-        </Typography>
+        </Typography> */}
 
         <TransitionWrapper open={cardPopup} className="max-w-[26rem] w-[90%]">
           <BuyWithCard handleClose={closeCardPopup} />

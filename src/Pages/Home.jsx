@@ -16,7 +16,7 @@ function Home() {
         <div className="mb-2 relative z-10">
         <img
           src="/images/mask.png"
-          className="absolute top-0 right-0 w-auto h-[92%]  -z-10 max-lg:hidden"
+          className="absolute top-0 right-0 w-auto h-[83.5%]  -z-10 max-lg:hidden"
           alt=""
         />
         <Navbar />

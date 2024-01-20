@@ -5,7 +5,7 @@ function PutMoney() {
   return (
     <section>
       <div className="container-wrapper">
-        <div className=" flex items-center flex-col sm:flex-row justify-between gap-6">
+        <div className=" flex  flex-col sm:flex-row justify-between gap-6">
          <div className=" max-w-lg w-full">
         
         <PresaleBox/>
