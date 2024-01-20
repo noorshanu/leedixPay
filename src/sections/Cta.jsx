@@ -13,15 +13,15 @@ function Cta() {
             </div>
 
             <div className=' text-center'>
-                <h1 className='  text-7xl text-white mb-5'>$0</h1>
-                <p className=' text-white text-xl font-sohaReg '>No setup cost </p>
-                <p className=' text-white text-xl font-sohaReg '>No subscription fee.</p>
+                <h1 className='  text-7xl text-white mb-5'>1.5%</h1>
+                <p className=' text-white text-xl font-sohaReg '>Clear fee. </p>
+                <p className=' text-white text-xl font-sohaReg '> Pay for what you use.</p>
             </div>
 
             <div className=' text-center'>
-                <h1 className='  text-7xl text-white mb-5'>$0</h1>
-                <p className=' text-white text-xl font-sohaReg '>No setup cost </p>
-                <p className=' text-white text-xl font-sohaReg '>No subscription fee.</p>
+                <h1 className='  text-7xl text-white mb-5'>1% $2</h1>
+                <p className=' text-white text-xl font-sohaReg '>Fair cost </p>
+                <p className=' text-white text-xl font-sohaReg '>for Fiat Off-Ramp.</p>
             </div>
 
         </div>

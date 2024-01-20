@@ -14,7 +14,7 @@ function PutMoney() {
           <div>
             <img src="images/logo.png" alt="" className=" mb-4" />
 
-            <h2 className=" font-sohaBold text-5xl py-2 mb-4">Put your money <br /> to work</h2>
+            <h2 className=" font-sohaBold text-5xl py-2 mb-4 lh-1_5">Put your money <br /> to work</h2>
 
             <p className=" max-w-5xl font-sohaReg text-lg">
               LeedixPay is a secure and fast point of sale for physical stores

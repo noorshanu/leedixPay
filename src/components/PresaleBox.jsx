@@ -32,7 +32,7 @@ function PresaleBox() {
 
         <main className="px-5">
           <div className="mb-4">
-            <ProgressBar progress='20%' />
+            <ProgressBar  />
           </div>
 
           <div className="space-y-2.5">

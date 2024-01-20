@@ -28,17 +28,17 @@ function PresaleTabsAndInput() {
 
     switch (selectedTab) {
       case 1:
-        setInputIcon("/images/icons/eth.svg");
+        setInputIcon("images/eth.svg");
         setPaymentMethod("ETH");
 
         break;
       case 2:
-        setInputIcon("/images/icons/usdt.svg");
+        setInputIcon("images/usdt.svg");
         setPaymentMethod("USDT");
 
         break;
       case 3:
-        setInputIcon("/images/icons/card.svg");
+        setInputIcon("images/card.svg");
         setPaymentMethod("CARD");
         break;
       default:
@@ -54,22 +54,22 @@ function PresaleTabsAndInput() {
         <TabButton
           onClick={() => handleTabClick(1)}
           active={tab === 1 ? true : false}
-          icon="images/icons/eth.svg"
+          icon="images/eth.svg"
         >
           ETH
         </TabButton>
         <TabButton
           onClick={() => handleTabClick(2)}
           active={tab === 2 ? true : false}
-          icon="images/icons/usdt.svg"
+          icon="images/usdt.svg"
         >
           USDT
         </TabButton>
 
         <TabButton
-          onClick={() => setCardPopup(true)}
+          // onClick={() => setCardPopup(true)}
           active={tab === 3 ? true : false}
-          icon="images/icons/card.svg"
+          icon="images/card.svg"
         >
           CARD
         </TabButton>

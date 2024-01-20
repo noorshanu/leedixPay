@@ -26,10 +26,11 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-3xl font-bold mb-1">
-              LeedixPay
+            LeedixPay - Merchant
+
             </h2>
             <p>
-              You don’t need a special <br /> device or skills
+            You don’t need a special <br /> device or skills
             </p>
           </div>
 
@@ -40,10 +41,10 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-3xl font-bold mb-1">
-              LeedixPay
+            Digital Library
             </h2>
             <p>
-              You don’t need a special <br /> device or skills
+            You don’t need a special <br /> device or skills
             </p>
           </div>
         </div>
@@ -56,7 +57,7 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-3xl font-bold mb-1">
-              LeedixPay
+            Audiogram training
             </h2>
             <p>
               You don’t need a special <br /> device or skills
@@ -70,7 +71,7 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-3xl font-bold mb-1">
-              LeedixPay
+            Videogram training
             </h2>
             <p>
               You don’t need a special <br /> device or skills
@@ -84,7 +85,7 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-3xl font-bold mb-1">
-              LeedixPay
+            Training
             </h2>
             <p>
               You don’t need a special <br /> device or skills
