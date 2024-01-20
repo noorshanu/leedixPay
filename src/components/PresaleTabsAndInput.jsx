@@ -54,14 +54,14 @@ function PresaleTabsAndInput() {
         <TabButton
           onClick={() => handleTabClick(1)}
           active={tab === 1 ? true : false}
-          icon="/images/icons/eth.svg"
+          icon="images/icons/eth.svg"
         >
           ETH
         </TabButton>
         <TabButton
           onClick={() => handleTabClick(2)}
           active={tab === 2 ? true : false}
-          icon="/images/icons/usdt.svg"
+          icon="images/icons/usdt.svg"
         >
           USDT
         </TabButton>
@@ -69,7 +69,7 @@ function PresaleTabsAndInput() {
         <TabButton
           onClick={() => setCardPopup(true)}
           active={tab === 3 ? true : false}
-          icon="/images/icons/card.svg"
+          icon="images/icons/card.svg"
         >
           CARD
         </TabButton>
@@ -106,14 +106,14 @@ function PresaleTabsAndInput() {
           live , which will happen after the presale has concluded.
         </Typography>
       </div> */}
-      <div className=" gap-4 mb-5">
+      <div className=" my-4 ">
         <div>
           <div className="mb-2 flex justify-between items-center">
             <Typography
               variant="xs"
-              className="opacity-60 text-white font-light tracking-[2px]"
+              className="opacity-60 text-white font-light tracking-[2px] mb-1"
             >
-              Pay with
+             Pay ( Select Coin)
             </Typography>
 
             <button className="text-green font-semibold text-xs">Max</button>
@@ -124,16 +124,16 @@ function PresaleTabsAndInput() {
         <div>
           <Typography
             variant="xs"
-            className="opacity-60 text-white font-light tracking-[2px] mb-2"
+            className="opacity-60 text-white font-light tracking-[2px] mb-2 mt-3"
           >
-            Receive ETHETF
+            Receive LDP
           </Typography>
 
           <PresaleInput
             placeholder=""
             disabled
-            icon="/images/logo-circular-black.svg"
-            iconClassName="invert"
+            icon="/images/ldp.png"
+            
           />
         </div>
 
@@ -147,7 +147,7 @@ function PresaleTabsAndInput() {
 
         <Button
           variant="green"
-          className="text-sm font-semibold px-0 space-x-2 col-span-2 w-full"
+          className="text-sm font-semibold px-0 space-x-2 col-span-2 w-full mt-3"
           onClick={() => open()}
           startIcon={
             <img

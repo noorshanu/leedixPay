@@ -57,7 +57,7 @@ const Timer = () => {
   };
 
   useEffect(() => {
-    const countdownDate = new Date("2024-01-18T00:00:00").getTime();
+    const countdownDate = new Date("2024-04-18T00:00:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date();

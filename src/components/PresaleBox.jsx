@@ -37,17 +37,17 @@ function PresaleBox() {
 
           <div className="space-y-2.5">
             <Typography variant="xs" className="text-center text-white/50">
-              <span className="font-bold text-white">USDT RAISED:</span> $
+              <span className="font-bold text-white">USDT RAISED:</span> $00.00
            
-              / $489,600.00
+              / $00.00
             </Typography>
             {/* <Typography variant="xs" className="text-center text-white/50">
-              <span className="text-white">YOUR PURCHASED ETHETF</span> ={" "}
+              <span className="text-white">YOUR PURCHASED $LDP</span> ={" "}
          
             
             </Typography>
             <Typography variant="xs" className="text-center text-white/50">
-              <span className="text-white">YOUR STAKED ETHETF</span> ={" "}
+              <span className="text-white">YOUR STAKED $LDP</span> ={" "}
               
             </Typography> */}
           </div>
@@ -64,8 +64,8 @@ function PresaleBox() {
 
           <div className="flex items-center space-x-10 mt-4 mb-6">
             <div className="flex-1 h-[1px] bg-white opacity-20"></div>
-            <Typography variant="sm" className="text-white font-medium">
-              1 ETHETF = $0.052
+            <Typography variant="sm" className="text-white font-medium  text-base">
+              1 $LDP = $0.015
             </Typography>
             <div className="flex-1 h-[1px] bg-white opacity-20"></div>
           </div>
