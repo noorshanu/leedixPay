@@ -4,7 +4,7 @@ function Cta() {
   return (
    <section>
     <div className=' bg-black container-wrapper px-6 py-12 rounded-sm'>
-        <div className=' flex justify-evenly items-center'>
+        <div className=' flex justify-evenly items-center flex-col sm:flex-row gap-4'>
 
             <div className=' text-center'>
                 <h1 className='  text-7xl text-white mb-5'>$0</h1>

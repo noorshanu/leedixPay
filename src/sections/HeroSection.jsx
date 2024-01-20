@@ -22,12 +22,12 @@ export default function HeroSection() {
 
             <div className="  my-2">
               <p className=" font-sohaReg text-lg mb-3">Try the App now!</p>
-              <div className=" flex items-center gap-3">
+              <div className=" flex flex-col sm:flex-row items-start sm:items-center gap-3">
                 <input type="text" className="  hero-input w-auto sm:w-[370px] h-auto sm:h-[60px] px-4" placeholder="your@gmail.com" />
                 <a href="/" className="btn-hero text-white px-12 py-4 text-base font-sohaBold">SUBSCRIBE NOW</a>
 
               </div>
-              <p className=" flex gap-2 items-center my-2">
+              <p className=" flex  gap-2 items-center my-2">
                 <input type="checkbox" />
                 <span className=" text-xs opacity-70" >I want to receive the news letter</span>
               </p>

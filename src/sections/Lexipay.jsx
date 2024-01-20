@@ -4,7 +4,7 @@ function Lexipay() {
   return (
     <section>
       <div className=" container-wrapper mx-auto">
-        <div className=" flex  justify-between ">
+        <div className=" flex  justify-between flex-col sm:flex-row ">
           <div>
             <h1 className=" font-sohaBold text-[40px] font-bold mb-[3rem]">At LeedixPay,</h1>
 

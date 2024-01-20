@@ -5,12 +5,12 @@ function Footer() {
   return (
     <section className=" bg-footer py-6 px-4">
       <div className=" container-wrapper">
-        <div className=" flex  justify-between items-center">
+        <div className=" flex flex-col sm:flex-row gap-4  justify-between items-center">
           <div>
             <img src="images/logo2.png" alt="" className="h-[50px] w-full" />
           </div>
 
-          <div className="flex items-center gap-4 ">
+          <div className="flex flex-col sm:flex-row items-center gap-4 ">
             <div className="bg-white h-[1px] w-44"></div>
             <div className=" flex items-center gap-4 text-white">
               <a href="/" className=" text-xl ">
@@ -34,13 +34,13 @@ function Footer() {
           </div>
         </div>
 
-        <div className=" flex justify-between items-center">
-          <div className=" flex justify-between gap-2">
+        <div className=" grid grid-cols-2 sm:flex justify-between flex-col sm:flex-row items-center">
+          <div className=" flex justify-between flex-col sm:flex-row gap-2">
             <img src="images/google.png" alt="" />
             <img src="images/apple.png" alt="" />
             <img src="images/qr1.png" alt="" />
           </div>
-          <div className=" flex justify-evenly gap-10">
+          <div className=" flex flex-col sm:flex-row justify-evenly gap-10">
             <div>
               <h2>Products</h2>
 

@@ -4,7 +4,7 @@ function AboutFun() {
   return (
     <section className=" mb-[6rem] mt-[3rem]">
       <div className="  container-wrapper p-6">
-        <div className=" flex justify-evenly items-center mb-[7rem]">
+        <div className=" flex justify-evenly flex-col sm:flex-row items-center mb-[7rem]">
           <div className=" text-center">
             <img
               src="images/icons/icon1.png"
@@ -48,7 +48,7 @@ function AboutFun() {
           </div>
         </div>
 
-        <div className=" flex justify-evenly items-center">
+        <div className=" flex justify-evenly flex-col sm:flex-row items-center">
         <div className=" text-center">
             <img
               src="images/icons/icon4.png"
