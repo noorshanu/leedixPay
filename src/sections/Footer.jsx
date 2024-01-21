@@ -34,57 +34,61 @@ function Footer() {
           </div>
         </div>
 
-        <div className=" grid grid-cols-2 sm:flex justify-between flex-col sm:flex-row items-center">
+        <div className=" grid grid-cols-2 sm:flex justify-between flex-col sm:flex-row items-center py-8">
           <div className=" flex justify-between flex-col sm:flex-row gap-2">
             <img src="images/google.png" alt="" />
             <img src="images/apple.png" alt="" />
             <img src="images/qr1.png" alt="" />
           </div>
-          <div className=" flex flex-col sm:flex-row justify-evenly gap-10">
-            <div>
-              <h2>Products</h2>
+          <div className=" flex flex-col sm:flex-row justify-between gap-10">
+            <div className=" text-white">
+              <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
+                Products
+              </h2>
 
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
+              <p className="mb-1">Sitemap</p>
+              <p className="mb-1">Crypto</p>
+              <p className="mb-1">Video Course</p>
+              <p className="mb-1">Pdf Course</p>
             </div>
-            <div>
-              <h2>Products</h2>
+            <div className=" text-white">
+              <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
+                Products
+              </h2>
 
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
+              <p className="mb-1">Sitemap</p>
+              <p className="mb-1">Crypto</p>
+              <p className="mb-1">Video Course</p>
+              <p className="mb-1">Pdf Course</p>
             </div>
-            <div>
-              <h2>Products</h2>
+            <div className=" text-white">
+              <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
+                Products
+              </h2>
 
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
-              <p>Sitemap</p>
+              <p className="mb-1">Sitemap</p>
+              <p className="mb-1">Crypto</p>
+              <p className="mb-1">Video Course</p>
+              <p className="mb-1">Pdf Course</p>
             </div>
           </div>
         </div>
 
         <div className=" pr-16 ">
-          <h3>
+          <h3 className=" text-white font-sohaReg text-base">
             The purpose of this website is solely to display information
             regarding the products and services available on the Crypto.com App.
-            It is not intended to offer access to any <br /> of such products and
-            services. You may obtain access to such products and services on the
-            Crypto.com App. <br /> Please note that the availability of the products
-            and services on the Crypto.com App is subject to jurisdictional
-            limitations. Crypto.com may not offer certain products, features <br />
+            It is not intended to offer access to any <br /> of such products
+            and services. You may obtain access to such products and services on
+            the Crypto.com App. <br /> Please note that the availability of the
+            products and services on the Crypto.com App is subject to
+            jurisdictional limitations. Crypto.com may not offer certain
+            products, features <br />
             and/or services on the Crypto.com App in certain jurisdictions due
             to potential or actual regulatory restrictions.
           </h3>
 
-          <p>© 2024 Leedixpay. All rights reserved</p>
+          <p className=" mt-8 text-white opacity-75">© 2024 Leedixpay. All rights reserved</p>
         </div>
       </div>
     </section>
