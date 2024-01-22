@@ -6,7 +6,8 @@ function Team() {
         <div className="container-wrapper">
 
           <div>
-            <h1 className=' text-center'>Team</h1>
+            <h1 className=' text-center font-sohaBold text-5xl'>Team</h1>
+            <p className=' font-sohaReg text-center text-xl'>Leedixpay Leadership Team</p>
 
 
           </div>

@@ -10,18 +10,18 @@ import SliderNavigationButton from "./SliderNavigationButton";
 const data = [
   {
     title: "Presale",
-    subTitle: "The Birth of ETHETF",
+    subTitle: "The Birth of LDP",
     content:
-      "Our initial focus is on bringing the ETHETF community together and spreading awareness about our goal to help everyone get ETHETF tokens before the first Ethereum ETF approval. A fair presale builds a strong community.",
+      "Our initial focus is on bringing the LDP community together and spreading awareness about our goal to help everyone get LDP tokens before the first Ethereum ETF approval. A fair presale builds a strong community.",
   },
   {
     title: "Pre-Launch",
-    subTitle: "ETHETF Marketing",
+    subTitle: "LDP Marketing",
     content:
-      "During the presale, we're starting marketing efforts that explain why it's important to hold ETHETF tokens and ETH before the SEC approves the first Ethereum ETF, highlighting its significance.",
+      "During the presale, we're starting marketing efforts that explain why it's important to hold LDP tokens and ETH before the SEC approves the first Ethereum ETF, highlighting its significance.",
   },
   {
-    title: "ETHETF",
+    title: "LDP",
     subTitle: "Launch and 5% Burn Tax",
     content:
       "Once launched on a DEX, the token-burning process will automatically reduce the token supply with each transaction, making the remaining token supply scarcer. The transaction tax will decrease 1% each time we reach a milestone in the Ethereum ETF journey.",
@@ -30,13 +30,13 @@ const data = [
     title: "25% Token Burn",
     subTitle: "Overtime",
     content:
-      "As Ethereum grows in the global market, we plan to burn and remove a total of 25% ETHETF token supply from circulation. With each ETHETF milestone, 5% of the total supply will be burned step by step.",
+      "As Ethereum grows in the global market, we plan to burn and remove a total of 25% LDP token supply from circulation. With each LDP milestone, 5% of the total supply will be burned step by step.",
   },
   {
     title: "25% Token Burn",
     subTitle: "Overtime",
     content:
-      "As Ethereum grows in the global market, we plan to burn and remove a total of 25% ETHETF token supply from circulation. With each ETHETF milestone, 5% of the total supply will be burned step by step.",
+      "As Ethereum grows in the global market, we plan to burn and remove a total of 25% LDP token supply from circulation. With each LDP milestone, 5% of the total supply will be burned step by step.",
   },
 ];
 

@@ -192,7 +192,10 @@ background: linear-gradient(-90deg,
   min-height: 275px;
   border: none;
 }
-
+.title_image {
+  height: 50px!important;
+  width: 50px!important;
+}
 .token-card {
   border-radius: 40px;
   background: #ffffff;

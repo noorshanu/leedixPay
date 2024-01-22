@@ -6,7 +6,12 @@ function About() {
     <div className='container-wrapper'>
     <div className=" flex  flex-col sm:flex-row justify-between gap-2 items-center">
          <div className=" max-w-lg w-full">
-         <img src="images/logo.png" alt="" className=" mb-4" />
+         <img src="images/qrcode.png" alt="" className=" mb-4" />
+         <div className=' flex justify-center items-center'>
+          <img src="images/google.png" alt="" />
+          <img src="images/apple.png" alt="" />
+
+         </div>
    
          </div>
 

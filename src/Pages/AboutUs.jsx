@@ -6,6 +6,7 @@ import RoadmapCards from "../components/RoadmapCards";
 import Tokenomics from "../sections/Tokenomics";
 import Footer from "../sections/Footer";
 import Team from "../sections/AboutSections/Team";
+import Roadmap from "../sections/Roadmap";
 
 function AboutUs() {
   return <>
@@ -13,6 +14,7 @@ function AboutUs() {
     <Navbar/>
     <Hero/>
     <About/>
+    <Roadmap/>
     <RoadmapCards/>
     <Tokenomics/>
     <Team/>

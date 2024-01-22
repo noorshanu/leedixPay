@@ -11,7 +11,7 @@ const data = [
     subtitle: "Trading Volume",
     imageSrc: "/images/icons/etf_volume.svg",
     description: [
-      "Total ETHETF trading volume hits $100 million",
+      "Total LDP trading volume hits $100 million",
       "5% of total supply is burned (6,000,000 tokens)",
       "Transaction tax reduced from 5% to 4%",
     ],
@@ -21,7 +21,7 @@ const data = [
     subtitle: "First ETF Approval",
     imageSrc: "/images/icons/etf_approval.svg",
     description: [
-      "SEC approves first Ethereum ETF in the U.S.",
+      "SEC approves first LeedixPay in the U.S.",
       "Another 5% of total supply is burned (6,000,000  tokens)",
       "Transaction tax reduced from 4% to 3%",
     ],
@@ -31,7 +31,7 @@ const data = [
     subtitle: "Launch Date",
     imageSrc: "/images/icons/etf_launch.svg",
     description: [
-      "First Ethereum ETF launches in the U.S.",
+      "First LeedixPay launches in the U.S.",
       "Another 5% of total supply is burned (6,000,000  tokens)",
       "Transaction tax reduced from 3% to 2%",
     ],
@@ -41,7 +41,7 @@ const data = [
     subtitle: "ETF Assets $1 Billion",
     imageSrc: "/images/icons/etf_aum.svg",
     description: [
-      "Ethereum ETF assets under management (AUM) hits $1 billion value",
+      "LeedixPay assets under management (AUM) hits $1 billion value",
       "Another 5% of total supply is burned (6,000,000  tokens)",
       "Transaction tax reduced from 2% to 1%",
     ],
