@@ -220,7 +220,7 @@ background: linear-gradient(-90deg,
   .about-hero{
     background-image: url('../public/images/about-hero-mob.png');
    background-size: contain;
-   height: 80vh;
+   height: 75vh;
    background-repeat: no-repeat;
   
   }

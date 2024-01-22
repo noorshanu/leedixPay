@@ -7,7 +7,7 @@ function Roadmap() {
   return (
     <section className=" py-8 my-8">
       <div className="container-wrapper">
-        <Heading className="font-semibold text-start font-sohaBold mb-2">
+        <Heading className="font-semibold text-start font-sohaBold text-3xl sm:text-5xl  mb-2">
         At LeedixPay Roadmap
         </Heading>
         <p className="text-lg  max-w-[50rem] w-full text-start">
