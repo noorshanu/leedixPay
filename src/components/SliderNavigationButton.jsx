@@ -6,7 +6,7 @@ function SliderNavigationButton({ className, ...props }) {
     <button
       {...props}
       className={twMerge(
-        "w-14 h-14 rounded-full bg-green/40 flex items-center justify-center text-2xl disabled:bg-white",
+        "w-14 h-14 my-4 rounded-full bg-[#5470AE] flex items-center justify-center text-2xl disabled:bg-[#5470aeb0]",
         className
       )}
     >

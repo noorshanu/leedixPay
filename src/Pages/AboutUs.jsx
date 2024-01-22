@@ -7,11 +7,12 @@ import Tokenomics from "../sections/Tokenomics";
 import Footer from "../sections/Footer";
 import Team from "../sections/AboutSections/Team";
 import Roadmap from "../sections/Roadmap";
+import Navbar2 from "../components/Navbar2";
 
 function AboutUs() {
   return <>
   <div>
-    <Navbar/>
+   <Navbar2/>
     <Hero/>
     <About/>
     <Roadmap/>

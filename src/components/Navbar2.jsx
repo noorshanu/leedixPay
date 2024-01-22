@@ -7,7 +7,7 @@ import { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { twMerge } from "tailwind-merge";
 
-export default function Navbar() {
+export default function Navbar2() {
   const [isSidebarOpen, setSidebarVisibility] = useState(false);
 
   const closeSidebar = () => setSidebarVisibility(false);
@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className="  ">
       <header className=" relative">
         <div
-          className="container-wrapper h-[72px] flex items-center justify-between pt-0 sm:pt-8
+          className="container-wrapper left-0 right-0 relative sm:absolute top-0 w-full h-[72px] flex items-center justify-between pt-0 sm:pt-8
         "
         >
           <Link to="/">

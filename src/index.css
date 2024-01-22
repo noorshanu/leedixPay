@@ -207,3 +207,21 @@ background: linear-gradient(-90deg,
   border: none;
   background-color: #2d3439;
 }
+
+.about-hero{
+  background-image: url('../public/images/about-hero.png');
+ background-size: cover;
+ height: 100vh;
+ background-repeat: no-repeat;
+
+}
+
+@media (max-width:768px) {
+  .about-hero{
+    background-image: url('../public/images/about-hero-mob.png');
+   background-size: contain;
+   height: 80vh;
+   background-repeat: no-repeat;
+  
+  }
+}
