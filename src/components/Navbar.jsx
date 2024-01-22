@@ -53,6 +53,7 @@ export default function Navbar() {
             </Typography>
             <Typography
               as={Link}
+              to='/about-us'
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}

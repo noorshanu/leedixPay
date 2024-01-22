@@ -181,3 +181,26 @@ background: linear-gradient(-90deg,
 #191919 0.00%, 
 #353b3b 100.00%);
 }
+
+.cards {
+  border-radius: 40px;
+  background: #ffffff;
+  box-shadow: 2px 4px 12px #00000014;
+  display: flex;
+  padding: 35px 30px 30px;
+  flex-direction: column;
+  min-height: 275px;
+  border: none;
+}
+
+.token-card {
+  border-radius: 40px;
+  background: #ffffff;
+  box-shadow: 2px 4px 12px #00000014;
+  display: flex;
+  padding: 35px 30px 50px ;
+  flex-direction: column;
+  min-height: 275px;
+  border: none;
+  background-color: #2d3439;
+}

@@ -5,7 +5,7 @@ import { Navigation } from "swiper/modules";
 import SubHeading from "./SubHeading";
 import { BsArrowRight } from "react-icons/bs";
 import SliderNavigationButton from "./SliderNavigationButton";
-import { useTranslation } from "react-i18next";
+
 
 const data = [
   {
@@ -25,6 +25,12 @@ const data = [
     subTitle: "Launch and 5% Burn Tax",
     content:
       "Once launched on a DEX, the token-burning process will automatically reduce the token supply with each transaction, making the remaining token supply scarcer. The transaction tax will decrease 1% each time we reach a milestone in the Ethereum ETF journey.",
+  },
+  {
+    title: "25% Token Burn",
+    subTitle: "Overtime",
+    content:
+      "As Ethereum grows in the global market, we plan to burn and remove a total of 25% ETHETF token supply from circulation. With each ETHETF milestone, 5% of the total supply will be burned step by step.",
   },
   {
     title: "25% Token Burn",
@@ -52,12 +58,12 @@ const Card = ({ title, subTitle, content }) => {
 };
 
 function RoadmapCards() {
-  const { t } = useTranslation();
+ 
 
   return (
     <section className="px-6">
       <Swiper
-        slidesPerView={3.2}
+        slidesPerView={4.2}
         spaceBetween={30}
         className="py-5 [&_.swiper-slide]:!h-auto"
         modules={[Navigation]}
@@ -80,9 +86,9 @@ function RoadmapCards() {
         {data.map((item, index) => (
           <SwiperSlide key={index}>
             <Card
-              title={t(item.title)}
-              subTitle={t(item.subTitle)}
-              content={t(item.content)}
+              title={(item.title)}
+              subTitle={(item.subTitle)}
+              content={(item.content)}
             />
           </SwiperSlide>
         ))}
