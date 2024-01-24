@@ -45,6 +45,7 @@ export default function Navbar() {
           >
             <Typography
               as={Link}
+              to='/'
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
@@ -62,6 +63,7 @@ export default function Navbar() {
             </Typography>
             <Typography
               as={Link}
+              to='/'
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
@@ -70,6 +72,7 @@ export default function Navbar() {
             </Typography>
             <Typography
               as={Link}
+              to='/'
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
