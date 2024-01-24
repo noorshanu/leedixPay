@@ -3,7 +3,7 @@ import PresaleBox from "../components/PresaleBox";
 
 function PutMoney() {
   return (
-    <section>
+    <section className=" -mt-0 sm:-mt-28">
       <div className="container-wrapper">
         <div className=" flex  flex-col sm:flex-row justify-between gap-2 items-center">
          <div className=" max-w-lg w-full">
