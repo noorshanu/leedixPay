@@ -34,13 +34,13 @@ function Footer() {
           </div>
         </div>
 
-        <div className=" grid grid-cols-2 sm:flex justify-between flex-col sm:flex-row items-center py-8">
-          <div className=" flex justify-between flex-col sm:flex-row gap-2">
+        <div className=" flex  justify-between flex-col  sm:flex-row items-center py-8">
+          <div className=" flex justify-between  gap-2">
             <img src="images/google.png" alt="" />
             <img src="images/apple.png" alt="" />
-            <img src="images/qr1.png" alt="" />
+            <img src="images/qr1.png" alt="" className=" hidden sm:block" />
           </div>
-          <div className=" flex flex-col sm:flex-row justify-between gap-10">
+          <div className=" grid grid-cols-2 sm:flex flex-col sm:flex-row justify-between gap-10 mt-8 sm:mt-0">
             <div className=" text-white">
               <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
                 Products
