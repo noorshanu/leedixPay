@@ -19,7 +19,7 @@ function Lexipay() {
           </div>
 
           <div>
-            <img src="images/iphone.png" alt="" className=" h-[90%] mx-auto" />
+            <img src="images/iphone.png" alt="" className=" h-auto sm:h-[90%]  mx-auto" />
           </div>
         </div>
       </div>
