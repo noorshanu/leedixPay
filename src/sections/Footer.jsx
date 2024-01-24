@@ -13,21 +13,21 @@ function Footer() {
           <div className="flex flex-col sm:flex-row items-center gap-4 ">
             <div className="bg-white h-[1px] w-44"></div>
             <div className=" flex items-center gap-4 text-white">
-              <a href="/" className=" text-xl ">
+              <a href="/" className=" text-xl  hover:text-[#1a4093]">
                 <BsTwitterX />
               </a>
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
                 <BsInstagram />
               </a>
 
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
                 <BsFacebook />
               </a>
 
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
                 <FaLinkedinIn />
               </a>
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
                 <FaTelegram />
               </a>
             </div>
@@ -46,30 +46,30 @@ function Footer() {
                 Products
               </h2>
 
-              <p className="mb-1">Sitemap</p>
-              <p className="mb-1">Crypto</p>
-              <p className="mb-1">Video Course</p>
-              <p className="mb-1">Pdf Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Sitemap</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Crypto</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Video Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Pdf Course</p>
             </div>
             <div className=" text-white">
               <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
                 Products
               </h2>
 
-              <p className="mb-1">Sitemap</p>
-              <p className="mb-1">Crypto</p>
-              <p className="mb-1">Video Course</p>
-              <p className="mb-1">Pdf Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Sitemap</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Crypto</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Video Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Pdf Course</p>
             </div>
             <div className=" text-white">
               <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
                 Products
               </h2>
 
-              <p className="mb-1">Sitemap</p>
-              <p className="mb-1">Crypto</p>
-              <p className="mb-1">Video Course</p>
-              <p className="mb-1">Pdf Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Sitemap</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Crypto</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Video Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Pdf Course</p>
             </div>
           </div>
         </div>

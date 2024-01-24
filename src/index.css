@@ -153,7 +153,10 @@
   background: #343a3a;
   background: linear-gradient(97deg, #343a3a 0%, #1b1b1b 100%);
 }
-
+.btn-hero:hover{
+  background: #343a3a;
+  background: linear-gradient(97deg, #343a3a 0%, #1b1b1b 100%);
+}
 .hero-input{
   border-color: #707070;
   border-width: 1px;
@@ -168,6 +171,11 @@ border-style: dashed;
 border-radius: 3px;
 
 background: #1a4093
+}
+
+.btn-nav:hover{
+  background: #1a4093;
+  border: 1px solid;
 }
 .presale-bg{
   border-color: #000000;

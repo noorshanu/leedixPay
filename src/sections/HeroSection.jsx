@@ -33,21 +33,21 @@ export default function HeroSection() {
               </p>
             
             <div className=" flex items-center gap-4 mt-8">
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
               <BsTwitterX />
               </a>
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
               <BsInstagram />
               </a>
 
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
               <BsFacebook />
               </a>
 
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
               <FaLinkedinIn />
               </a>
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-xl hover:text-[#1a4093]">
               <FaTelegram />
               </a>
 
