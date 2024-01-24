@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <>
       <section className=" ">
-        <div className="container-wrapper py-6 grid lg:grid-cols-[1fr_.7fr] gap-10  justify-between relative pt-[3%] ">
+        <div className="container-wrapper py-6 flex flex-col-reverse  lg:grid lg:grid-cols-[1fr_.7fr] gap-10  justify-between relative pt-[3%] ">
           <div>
             <Typography className="text-[32px] xl:text-[59px]   max-sm:mb-4">
               <span className=" font-sohaBold lh-1_3">Bringing Dreams to Life, One Transfer at a Time</span>
@@ -56,7 +56,7 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <img src="images/phone.png" alt="" className="h-auto sm:h-[80%] mx-auto" />
+          <img src="images/phone.png" alt="" className="h-[300px] sm:h-[80%] mx-auto" />
         </div>
       </section>
     </>
