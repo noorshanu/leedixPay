@@ -86,14 +86,14 @@ export default function Navbar() {
               as={Link}
               to='/'
               variant="sm"
-              className="font-medium cursor-pointer text-sm font-sohaMed "
+              className="font-medium cursor-pointer text-sm font-sohaMed underline "
               onClick={() => setSidebarVisibility(false)}
             >
               Login
             </Typography>
 
             <button className=" btn-nav  px-2 sm:px-4 py-3  ">
-              <span className="text-white font-sohaBold font-bold text-base sm:text-base">
+              <span className="text-white font-sohaBold font-bold text-base sm:text-xs">
                 REGISTER NOW
               </span>
             </button>
