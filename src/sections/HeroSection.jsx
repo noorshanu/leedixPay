@@ -9,8 +9,8 @@ export default function HeroSection() {
       <section className=" ">
         <div className="container-wrapper py-6 flex flex-col-reverse  lg:grid lg:grid-cols-[1fr_.7fr] gap-10  justify-between relative pt-[3%] ">
           <div>
-            <Typography className="text-[32px] xl:text-[59px]   max-sm:mb-4">
-              <span className=" font-sohaBold lh-1_3">Bringing Dreams to Life, One Transfer at a Time</span>
+            <Typography className="text-[32px] xl:text-[45px]   max-sm:mb-4">
+              <span className=" font-sohaBold lh-0-5">Bringing Dreams to Life, One Transfer at a Time</span>
             </Typography>
 
             <Typography className=" xl:text-[18px] font-medium font-sohaReg lh-1_3  mb-8">

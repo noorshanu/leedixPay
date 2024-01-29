@@ -14,7 +14,7 @@ export default function Navbar() {
   const openSidebar = () => setSidebarVisibility(true);
 
   return (
-    <nav className="  ">
+    <nav className="  py-[2rem] ">
       <header className=" relative">
         <div
           className="container-wrapper h-[72px] flex items-center justify-between pt-0 sm:pt-8
@@ -23,10 +23,11 @@ export default function Navbar() {
           <Link to="/">
             <img
               src="/images/logo.png"
-              alt=""
-              width="150px"
-              height="28px"
+              alt="Leedixpay"
+              width="180px"
+              height="72px"
               className="cursor-pointer"
+              
             />
           </Link>
 
@@ -47,7 +48,7 @@ export default function Navbar() {
               as={Link}
               to='/'
               variant="sm"
-              className="font-medium cursor-pointer text-lg font-sohaMed"
+              className="font-medium cursor-pointer text-sm font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
               Home
@@ -56,7 +57,7 @@ export default function Navbar() {
               as={Link}
               to='/about-us'
               variant="sm"
-              className="font-medium cursor-pointer text-lg font-sohaMed"
+              className="font-medium cursor-pointer text-sm font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
               About
@@ -65,26 +66,38 @@ export default function Navbar() {
               as={Link}
               to='/'
               variant="sm"
-              className="font-medium cursor-pointer text-lg font-sohaMed"
+              className="font-medium cursor-pointer text-sm font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
               Services
             </Typography>
+
             <Typography
               as={Link}
               to='/'
               variant="sm"
-              className="font-medium cursor-pointer text-lg font-sohaMed"
+              className="font-medium cursor-pointer text-sm font-sohaMed"
+              onClick={() => setSidebarVisibility(false)}
+            >
+              En
+            </Typography>
+          <div className="ml-[8rem] flex gap-4 items-center">
+          <Typography
+              as={Link}
+              to='/'
+              variant="sm"
+              className="font-medium cursor-pointer text-sm font-sohaMed "
               onClick={() => setSidebarVisibility(false)}
             >
               Login
             </Typography>
 
             <button className=" btn-nav  px-2 sm:px-4 py-3  ">
-              <span className="text-white font-sohaBold font-bold text-base sm:text-xl">
+              <span className="text-white font-sohaBold font-bold text-base sm:text-base">
                 REGISTER NOW
               </span>
             </button>
+          </div>
           </aside>
         </div>
       </header>
