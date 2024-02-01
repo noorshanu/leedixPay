@@ -6,6 +6,7 @@ import Button from "./Button";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { twMerge } from "tailwind-merge";
+import LanguageDropdown from "./LanguageDropdown";
 
 export default function Navbar() {
   const [isSidebarOpen, setSidebarVisibility] = useState(false);
@@ -79,7 +80,7 @@ export default function Navbar() {
               className="font-medium cursor-pointer text-sm font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-              En
+             <LanguageDropdown/>
             </Typography>
           <div className="ml-[8rem] flex gap-4 items-center">
           <Typography

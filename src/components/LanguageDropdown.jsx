@@ -1,87 +1,19 @@
-import OutsideClickDetector from "hooks/OutsideClickDetector";
+import OutsideClickDetector from "../hooks/OutsideClickDetector";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { BsChevronDown } from "react-icons/bs";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
-import generateLanguage from "utils/generateLanguage";
+import generateLanguage from "../utils/generateLanguage";
 
-// const languages = [
-//   { code: "en", name: "English", flag: "https://flagsapi.com/GB/flat/64.png" },
-//   { code: "ar", name: "Arabic", flag: "https://flagsapi.com/SA/flat/64.png" },
-//   {
-//     code: "bg",
-//     name: "Bulgarian",
-//     flag: "https://flagsapi.com/BG/flat/64.png",
-//   },
-//   {
-//     code: "zh-Hans",
-//     name: "Chinese (simplified)",
-//     flag: "https://flagsapi.com/CN/flat/64.png",
-//   },
-//   {
-//     code: "zh-Hant",
-//     name: "Chinese (traditional)",
-//     flag: "https://flagsapi.com/TW/flat/64.png",
-//   },
-//   { code: "cs", name: "Czech", flag: "https://flagsapi.com/CZ/flat/64.png" },
-//   { code: "nl", name: "Dutch", flag: "https://flagsapi.com/NL/flat/64.png" },
-//   { code: "fr", name: "French", flag: "https://flagsapi.com/FR/flat/64.png" },
-//   { code: "de", name: "German", flag: "https://flagsapi.com/DE/flat/64.png" },
-//   { code: "el", name: "Greek", flag: "https://flagsapi.com/GR/flat/64.png" },
-//   {
-//     code: "hu",
-//     name: "Hungarian",
-//     flag: "https://flagsapi.com/HU/flat/64.png",
-//   },
-//   {
-//     code: "id",
-//     name: "Indonesian",
-//     flag: "https://flagsapi.com/ID/flat/64.png",
-//   },
-//   { code: "it", name: "Italian", flag: "https://flagsapi.com/IT/flat/64.png" },
-//   { code: "ja", name: "Japanese", flag: "https://flagsapi.com/JP/flat/64.png" },
-//   { code: "ko", name: "Korean", flag: "https://flagsapi.com/KR/flat/64.png" },
-//   { code: "fa", name: "Persian", flag: "https://flagsapi.com/IR/flat/64.png" },
-//   { code: "pl", name: "Polish", flag: "https://flagsapi.com/PL/flat/64.png" },
-//   {
-//     code: "pt",
-//     name: "Portuguese",
-//     flag: "https://flagsapi.com/PT/flat/64.png",
-//   },
-//   { code: "ro", name: "Romanian", flag: "https://flagsapi.com/RO/flat/64.png" },
-//   { code: "ru", name: "Russian", flag: "https://flagsapi.com/RU/flat/64.png" },
-//   { code: "sk", name: "Slovak", flag: "https://flagsapi.com/SK/flat/64.png" },
-//   { code: "es", name: "Spanish", flag: "https://flagsapi.com/ES/flat/64.png" },
-//   { code: "th", name: "Thai", flag: "https://flagsapi.com/TH/flat/64.png" },
-//   { code: "tr", name: "Turkish", flag: "https://flagsapi.com/TR/flat/64.png" },
-//   {
-//     code: "vi",
-//     name: "Vietnamese",
-//     flag: "https://flagsapi.com/VN/flat/64.png",
-//   },
-// ];
+
 
 const languages = [
   { code: "en", name: "English", flag: "https://flagsapi.com/GB/flat/64.png" },
   { code: "ar", name: "Arabic", flag: "https://flagsapi.com/SA/flat/64.png" },
-  {
-    code: "zh",
-    name: "Chinese",
-    flag: "https://flagsapi.com/CN/flat/64.png",
-  },
+
   { code: "fr", name: "French", flag: "https://flagsapi.com/FR/flat/64.png" },
-  { code: "de", name: "German", flag: "https://flagsapi.com/DE/flat/64.png" },
-  {
-    code: "id",
-    name: "Indonesian",
-    flag: "https://flagsapi.com/ID/flat/64.png",
-  },
-  { code: "it", name: "Italian", flag: "https://flagsapi.com/IT/flat/64.png" },
-  { code: "ko", name: "Korean", flag: "https://flagsapi.com/KR/flat/64.png" },
-  { code: "ru", name: "Russian", flag: "https://flagsapi.com/RU/flat/64.png" },
-  { code: "es", name: "Spanish", flag: "https://flagsapi.com/ES/flat/64.png" },
-  { code: "th", name: "Thai", flag: "https://flagsapi.com/TH/flat/64.png" },
-  { code: "tr", name: "Turkish", flag: "https://flagsapi.com/TR/flat/64.png" },
+
+
 ];
 
 const DropdownItem = ({ text, flag, ...props }) => {
@@ -168,7 +100,7 @@ export default function LanguageDropdown() {
       </button>
 
       {isDropdownOpen ? (
-        <div className="lg:absolute top-full right-0 lg:w-[156px] h-[250px] overflow-y-auto bg-text-2 border border-white/20">
+        <div className="lg:absolute top-full right-0 lg:w-[156px] h-[140px] overflow-y-auto bg-text-2 border bg-[#000] rounded-lg border-white/20">
           {languages.map((item, i) => (
             <DropdownItem
               key={i}

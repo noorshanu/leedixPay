@@ -1,5 +1,7 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,  Navigate, } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop ";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
@@ -7,6 +9,7 @@ import AboutUs from "./Pages/AboutUs";
 function App() {
   return (
     <>
+     <I18nextProvider i18n={i18n}>
       <Router>
         <ScrollToTop />
 
@@ -17,6 +20,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      </I18nextProvider>
     </>
   );
 }
