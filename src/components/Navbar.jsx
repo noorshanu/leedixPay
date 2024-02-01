@@ -74,11 +74,11 @@ export default function Navbar() {
             </Typography>
 
             <Typography
-              as={Link}
-              to='/'
+             
+            
               variant="sm"
               className="font-medium cursor-pointer text-sm font-sohaMed"
-              onClick={() => setSidebarVisibility(false)}
+          
             >
              <LanguageDropdown/>
             </Typography>
