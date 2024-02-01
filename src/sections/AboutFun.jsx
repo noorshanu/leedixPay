@@ -32,7 +32,7 @@ function AboutFun() {
 
             </h2>
             <p>
-            You don’t need a special <br /> device or skills
+           {t(" You don’t need a special")} <br /> {t("device or skills")}
             </p>
           </div>
 
