@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function AboutFun() {
+  const { t } = useTranslation();
   return (
     <section className=" mb-[6rem] mt-[3rem]">
       <div className="  container-wrapper p-6">
@@ -15,7 +17,7 @@ function AboutFun() {
               LeedixPay
             </h2>
             <p>
-              You don’t need a special <br /> device or skills
+             {t(' You don’t need a special')} <br /> {t('device or skills')}
             </p>
           </div>
 

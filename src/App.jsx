@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Route, Routes,  Navigate, } from "react-router
 import ScrollToTop from "./components/ScrollToTop ";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
+import NestedRoutes from "./components/NestedRoutes";
 
-import Home from "./Pages/Home";
-import AboutUs from "./Pages/AboutUs";
+
 
 function App() {
   return (
@@ -15,8 +15,9 @@ function App() {
 
         <div className="">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about-us" element={<AboutUs/>} />
+          <Route path="/" element={<Navigate to="/en" />} />
+                <Route path="/:locale/*" element={<NestedRoutes />} />
+         
           </Routes>
         </div>
       </Router>

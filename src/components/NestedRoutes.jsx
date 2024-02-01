@@ -1,11 +1,9 @@
-import Cookies from "Pages/Cookies";
-import Home from "Pages/Home";
-import PrivacyPolicy from "Pages/PrivacyPolicy";
-import Stake from "Pages/Stake";
-import Terms from "Pages/Terms";
+import Home from "../Pages/Home";
+
 import i18next from "i18next";
 import { useEffect } from "react";
 import { Route, Routes, useParams } from "react-router-dom";
+import AboutUs from "../Pages/AboutUs";
 
 const changeLanguage = (lng) => {
   i18next.changeLanguage(lng);
@@ -25,10 +23,7 @@ function NestedRoutes() {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/dashboard" element={<Stake />} />
-        <Route path="/cookies" element={<Cookies/>} />
-        <Route path="/privacy&policy" element={<PrivacyPolicy/>} />
-        <Route path="/terms&condition" element={<Terms/>} />
+        <Route path="/about-us" element={<AboutUs />} />
       </Routes>
     </div>
   );
