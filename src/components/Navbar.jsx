@@ -72,7 +72,15 @@ export default function Navbar() {
             >
               Services
             </Typography>
-
+            <Typography
+             
+            
+             variant="sm"
+             className="font-medium cursor-pointer text-sm font-sohaMed"
+         
+           >
+            {/* <LanguageDropdown/> */}
+           </Typography>
             <Typography
              
             
@@ -80,7 +88,7 @@ export default function Navbar() {
               className="font-medium cursor-pointer text-sm font-sohaMed"
           
             >
-             <LanguageDropdown/>
+             {/* <LanguageDropdown/> */}
             </Typography>
           <div className="ml-[8rem] flex gap-4 items-center">
           <Typography

@@ -1,9 +1,7 @@
 import React from "react";
 import PresaleBox from "../components/PresaleBox";
-import { useTranslation } from "react-i18next";
 
 function PutMoney() {
-  const { t } = useTranslation();
   return (
     <section className=" -mt-0 sm:-mt-28">
       <div className="container-wrapper">
@@ -16,7 +14,7 @@ function PutMoney() {
           <div>
             <img src="images/logo.png" alt="" className=" mb-4 sm:mt-0 mt-4" />
 
-            <h2 className=" font-sohaBold text-3xl sm:text-5xl py-2 mb-4 lh-1_5">{t("Put your money")} <br /> to work</h2>
+            <h2 className=" font-sohaBold text-3xl sm:text-5xl py-2 mb-4 lh-1_5">Put your money <br /> to work</h2>
 
             <p className=" max-w-5xl font-sohaReg text-lg">
               LeedixPay is a secure and fast point of sale for physical stores
@@ -27,7 +25,7 @@ function PutMoney() {
 
             <div className=" flex flex-col sm:flex-row gap-4 items-center mt-14">
                 <p className=" font-sohaReg text-3xl">
-               {t(" How to buy LDP")}
+                How to buy LDP
                 </p>
 
                 <button className="btn-hero px-12 py-2 font-sohaBold text-lg text-white"> Whitepaper</button>
