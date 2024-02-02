@@ -6,11 +6,28 @@ import Button from "./Button";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { twMerge } from "tailwind-merge";
-import LanguageDropdown from "./LanguageDropdown";
+import { useTranslation, initReactI18next } from 'react-i18next';
+
+import LanguageSwitchers from "./LanguageDropdown";
+
+
+// i18next.use(initReactI18next).init({
+//   resources: {
+//     en: { translation: enTranslation },
+//     fr: { translation: frTranslation }
+//   },
+//   lng: 'en', // default language
+//   fallbackLng: 'en',
+//   interpolation: { escapeValue: false }
+// })
 
 export default function Navbar() {
   const [isSidebarOpen, setSidebarVisibility] = useState(false);
+  const { i18n } = useTranslation();
 
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   const closeSidebar = () => setSidebarVisibility(false);
   const openSidebar = () => setSidebarVisibility(true);
 
@@ -72,6 +89,7 @@ export default function Navbar() {
             >
               Services
             </Typography>
+          
             <Typography
              
             
@@ -79,7 +97,7 @@ export default function Navbar() {
              className="font-medium cursor-pointer text-sm font-sohaMed"
          
            >
-            {/* <LanguageDropdown/> */}
+            <LanguageSwitchers changeLanguage={changeLanguage}/>
            </Typography>
             <Typography
              
@@ -90,6 +108,15 @@ export default function Navbar() {
             >
              {/* <LanguageDropdown/> */}
             </Typography>
+            <Typography
+             
+            
+             variant="sm"
+             className="font-medium cursor-pointer text-sm font-sohaMed"
+         
+           >
+            {/* <LanguageDropdown/> */}
+           </Typography>
           <div className="ml-[8rem] flex gap-4 items-center">
           <Typography
               as={Link}
