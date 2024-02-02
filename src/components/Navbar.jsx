@@ -66,7 +66,7 @@ export default function Navbar() {
               as={Link}
               to='/'
               variant="sm"
-              className="font-medium cursor-pointer text-sm font-sohaMed"
+              className="font-medium cursor-pointer text-sm font-sohaMed hover:underline"
               onClick={() => setSidebarVisibility(false)}
             >
               Home
@@ -75,7 +75,7 @@ export default function Navbar() {
               as={Link}
               to='/about-us'
               variant="sm"
-              className="font-medium cursor-pointer text-sm font-sohaMed"
+              className="font-medium cursor-pointer text-sm font-sohaMed hover:underline"
               onClick={() => setSidebarVisibility(false)}
             >
               About
@@ -84,7 +84,7 @@ export default function Navbar() {
               as={Link}
               to='/'
               variant="sm"
-              className="font-medium cursor-pointer text-sm font-sohaMed"
+              className="font-medium cursor-pointer text-sm font-sohaMed hover:underline"
               onClick={() => setSidebarVisibility(false)}
             >
               Services
@@ -94,7 +94,7 @@ export default function Navbar() {
              
             
              variant="sm"
-             className="font-medium cursor-pointer text-sm font-sohaMed"
+             className="font-medium cursor-pointer text-sm font-sohaMed hover:underline"
          
            >
             <LanguageSwitchers changeLanguage={changeLanguage}/>
@@ -129,7 +129,7 @@ export default function Navbar() {
             </Typography>
 
             <button className=" btn-nav  px-2 sm:px-4 py-3  ">
-              <span className="text-white font-sohaBold font-bold text-base sm:text-xs">
+              <span className="text-white font-sohaBold font-bold text-base sm:text-xs hover:underline">
                 REGISTER NOW
               </span>
             </button>
