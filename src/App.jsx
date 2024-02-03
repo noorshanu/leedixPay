@@ -16,6 +16,7 @@ function App() {
         <Route path="/en" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/en/about-us" element={<AboutUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
         
         {/* French Routes */}
         <Route path="/fr/" element={<HomeFr/>} />

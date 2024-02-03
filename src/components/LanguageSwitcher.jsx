@@ -1,21 +1,62 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { BsChevronDown } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
+const languages = [
+  { to: "/en/about-us", name: "English", flag: "https://flagsapi.com/GB/flat/64.png" },
+  { to: "/fr/about-us", name: "French", flag: "https://flagsapi.com/FR/flat/64.png" },
+];
+
+const DropdownItem = ({ text, flag, to, onClick }) => {
+  return (
+    <Link
+      to={to}
+      onClick={onClick}
+      className="p-2 flex items-center space-x-2 text-white text-left text-sm"
+    >
+      <img
+        src={flag}
+        alt="country-flag"
+        className="flex flex-shrink-0 w-5 h-5 rounded-full border border-white object-cover"
+      />
+      <span>{text}</span>
+    </Link>
+  );
+};
 
 const LanguageSwitcher = ({ changeLanguage }) => {
+  const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
+
+  const closeDropdown = () => setIsDropdownOpen(false);
+  const toggleDropdown = () => setIsDropdownOpen((val) => !val);
+
   return (
     <div className="relative">
-      <button className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
-        Language
-        <svg className="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path fillRule="evenodd" d="M14.293 6.707a1 1 0 0 1 1.414 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7a1 1 0 1 1 1.414-1.414L10 12.586l4.293-4.293z" clipRule="evenodd" />
-        </svg>
+      <button
+        onClick={toggleDropdown}
+        className="flex items-center justify-between max-lg:border max-lg:h-11 max-lg:px-4 max-lg:mt-8 space-x-1.5 py-1 relative max-lg:w-full"
+      >
+        <span className="flex space-x-2 items-center">
+          <span className="text-sm font-medium uppercase">Language</span>
+          <BsChevronDown className="hidden lg:block" />
+        </span>
       </button>
-      <div className="absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-        <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-          <Link to="/en" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">English</Link>
-          <Link to="/fr"  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">French</Link>
+      {isDropdownOpen && (
+        <div className="lg:absolute top-full right-0 lg:w-[156px] h-[140px] overflow-y-auto bg-text-2 border bg-[#000] rounded-lg border-white/20">
+          {languages.map((item, i) => (
+            <DropdownItem
+              key={i}
+              text={item.name}
+              to={item.to}
+              onClick={() => {
+               
+                closeDropdown(); // Close the dropdown after selecting an option
+              }}
+              flag={item.flag}
+            />
+          ))}
         </div>
-      </div>
+      )}
     </div>
   );
 };

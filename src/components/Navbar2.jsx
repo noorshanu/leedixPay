@@ -6,6 +6,7 @@ import Button from "./Button";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { twMerge } from "tailwind-merge";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar2() {
   const [isSidebarOpen, setSidebarVisibility] = useState(false);
@@ -45,6 +46,7 @@ export default function Navbar2() {
           >
             <Typography
               as={Link}
+              to='/'
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
@@ -67,6 +69,14 @@ export default function Navbar2() {
               onClick={() => setSidebarVisibility(false)}
             >
               Services
+            </Typography>
+            <Typography
+              as={Link}
+              variant="sm"
+              className="font-medium cursor-pointer text-lg font-sohaMed"
+              onClick={() => setSidebarVisibility(false)}
+            >
+              <LanguageSwitcher />
             </Typography>
             <Typography
               as={Link}
