@@ -1,16 +1,17 @@
 import { BsTwitterX ,BsInstagram,BsFacebook } from "react-icons/bs";
 import { FaLinkedinIn,FaTelegram  } from "react-icons/fa6";
-
+import { useTranslation } from 'react-i18next';
 import Typography from "../components/Typography";
 
 export default function HeroSection() {
+  const { t } = useTranslation();
   return (
     <>
       <section className=" ">
         <div className="container-wrapper py-6 flex flex-col-reverse  lg:grid lg:grid-cols-[1fr_.7fr] gap-10  justify-between relative pt-[3%] ">
           <div>
             <Typography className="text-[32px] xl:text-[45px]   max-sm:mb-4">
-              <span className=" font-sohaBold lh-0-5">Bringing Dreams to Life, One Transfer at a Time</span>
+              <span className=" font-sohaBold lh-0-5">{t('Dreams')}</span>
             </Typography>
 
             <Typography className=" xl:text-[0.9rem] font-medium font-sohaReg lh-1_9  mb-8">
