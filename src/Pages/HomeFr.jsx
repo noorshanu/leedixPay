@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import PutMoney from "../sections/FrSections/PutMoney";
 import Cta from "../sections/FrSections/Cta";
 import AboutFun from "../sections/FrSections/AboutFun";
-import Footer from "../sections/Footer";
+import Footer from "../sections/FrSections/Footer";
 import Lexipay from "../sections/Lexipay";
 import Invest from "../sections/Invest";
 import Features from "../sections/Features";

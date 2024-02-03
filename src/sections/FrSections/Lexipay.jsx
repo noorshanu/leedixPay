@@ -9,12 +9,12 @@ function Lexipay() {
             <h1 className=" font-sohaBold text-[40px] font-bold mb-[3rem]">At LeedixPay,</h1>
 
             <p className=" max-w-[640px] text-base font-sohaReg">
-              we believe in the importance of self-sufficiency, continuous
-              learning and innovation. We encourage everyone to seize the
-              opportunities offered by our platforms and embrace change for a
-              better future. Join us today and together, let’s build a world
-              where dreams become reality, one transfer at a time. Get ready to
-              embark on an exciting adventure with LeedixPay!
+            nous croyons en l'importance de l'autosuffisance, de la continuité
+              l'apprentissage et l'innovation. Nous encourageons tout le monde à saisir
+              opportunités offertes par nos plateformes et accepter le changement pour un
+              Meilleur futur. Rejoignez-nous aujourd'hui et ensemble, construisons un monde
+              où les rêves deviennent réalité, un transfert à la fois. Préparez-vous à
+              lancez-vous dans une aventure passionnante avec LeedixPay !
             </p>
           </div>
 
