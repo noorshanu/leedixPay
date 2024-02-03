@@ -5,15 +5,16 @@ function Invest() {
     <section>
       <div className="container-wrapper">
         <div>
-          <h1 className=" font-sohaBold text-[40px] font-bold ">Invest like a VC and Brcome</h1>
+          <h1 className=" font-sohaBold text-[40px] font-bold ">Investissez comme un VC et Brcome</h1>
 
-          <p className=" font-sohaReg text-3xl mb-2">a shareholder in tomorrow’s unicorns!</p>
+          <p className=" font-sohaReg text-3xl mb-2">
+actionnaire des licornes de demain !</p>
 
           <p className=" text-base">
-            Every month, Klub offers you the chance to invest in several
-            startups that are normally inaccessible to private investors. Take <br />
-            advantage of exclusive off-market deals with the best conditions
-            negotiated by our investment team.
+          Chaque mois, Klub vous offre la possibilité d'investir dans plusieurs
+            des startups normalement inaccessibles aux investisseurs privés. Prendre <br />
+            Bénéficiez d'offres exclusives hors marché aux meilleures conditions
+            négocié par notre équipe d’investissement.
           </p>
         </div>
       </div>
