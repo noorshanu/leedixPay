@@ -36,13 +36,13 @@ const LanguageSwitchers = ({ changeLanguage }) => {
         onClick={toggleDropdown}
         className="flex items-center justify-between max-lg:border max-lg:h-11 max-lg:px-4 max-lg:mt-8 space-x-1.5 py-1 relative max-lg:w-full"
       >
-        <span className="flex space-x-2 items-center">
-          <span className="text-sm font-medium uppercase">Language</span>
-          <BsChevronDown className="hidden lg:block" />
+         <span className="flex space-x-2 items-center">
+          <span className="font-medium cursor-pointer text-sm font-sohaMed hover:underline">Language</span>
+          <BsChevronDown className="hidden lg:block font-medium cursor-pointer text-sm font-sohaMed hover:underline mt-1" />
         </span>
       </button>
       {isDropdownOpen && (
-        <div className="lg:absolute top-full right-0 lg:w-[156px] h-[140px] overflow-y-auto bg-text-2 border bg-[#000] rounded-lg border-white/20">
+        <div className="lg:absolute top-full right-0  px-4 py-4 lg:w-[156px] h-[120px] overflow-y-auto bg-text-2 border bg-[#000] rounded-lg border-white/20">
           {languages.map((item, i) => (
             <DropdownItem
               key={i}

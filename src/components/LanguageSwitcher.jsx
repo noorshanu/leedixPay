@@ -37,8 +37,8 @@ const LanguageSwitcher = ({ changeLanguage }) => {
         className="flex items-center justify-between max-lg:border max-lg:h-11 max-lg:px-4 max-lg:mt-8 space-x-1.5 py-1 relative max-lg:w-full"
       >
         <span className="flex space-x-2 items-center">
-          <span className="text-sm font-medium uppercase">Language</span>
-          <BsChevronDown className="hidden lg:block" />
+          <span className="font-medium cursor-pointer text-sm font-sohaMed hover:underline">Language</span>
+          <BsChevronDown className="hidden lg:block font-medium cursor-pointer text-sm font-sohaMed hover:underline mt-1" />
         </span>
       </button>
       {isDropdownOpen && (
