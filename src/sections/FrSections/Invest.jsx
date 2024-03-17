@@ -11,10 +11,10 @@ function Invest() {
 actionnaire des licornes de demain !</p>
 
           <p className=" text-base">
-          Chaque mois, Klub vous offre la possibilité d'investir dans plusieurs
-            des startups normalement inaccessibles aux investisseurs privés. Prendre <br />
-            Bénéficiez d'offres exclusives hors marché aux meilleures conditions
-            négocié par notre équipe d’investissement.
+          Investissez judicieusement en achetant notre jeton. Devenez nos actionnaires de
+            demain et bénéficiez de divers privilèges tels que le partage des dividendes et <br />
+            possibilités d'emprunt rapides. Achetez maintenant et embarquez pour un essentiel
+            voyage vers le succès avec nous.
           </p>
         </div>
       </div>
