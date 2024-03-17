@@ -13,7 +13,7 @@ function Cta() {
             </div>
 
             <div className=' text-center  mb-8 sm:mb-2'>
-                <h1 className='  text-7xl text-white mb-5'>1.5%</h1>
+                <h1 className='  text-7xl text-white mb-5'>2%</h1>
                 <p className=' text-white text-xl font-sohaReg '>Clear fee. </p>
                 <p className=' text-white text-xl font-sohaReg '> Pay for what you use.</p>
             </div>
