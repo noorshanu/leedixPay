@@ -7,7 +7,11 @@ function Footer() {
       <div className=" container-wrapper">
         <div className=" flex flex-col sm:flex-row gap-4  justify-between items-center">
           <div>
-            <img src="images/logo2.png" alt="" className=" h-auto sm:h-[50px] w-full" />
+            <img
+              src="images/logo2.png"
+              alt=""
+              className=" h-auto sm:h-[50px] w-full"
+            />
           </div>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 ">
@@ -46,49 +50,62 @@ function Footer() {
                 Products
               </h2>
 
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Sitemap</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Sitemap
+              </p>
               <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Crypto</p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Video Course</p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Pdf Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Video Course
+              </p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Pdf Course
+              </p>
             </div>
             <div className=" text-white">
               <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
                 Products
               </h2>
 
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Sitemap</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Sitemap
+              </p>
               <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Crypto</p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Video Course</p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Pdf Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Video Course
+              </p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Pdf Course
+              </p>
             </div>
             <div className=" text-white">
               <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
                 Products
               </h2>
 
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Sitemap</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Sitemap
+              </p>
               <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Crypto</p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Video Course</p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Pdf Course</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Video Course
+              </p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
+                Pdf Course
+              </p>
             </div>
           </div>
         </div>
 
         <div className=" pr-16 ">
           <h3 className=" text-white font-sohaReg text-base">
-            The purpose of this website is solely to display information
-            regarding the products and services available on the Crypto.com App.
-            It is not intended to offer access to any <br /> of such products
-            and services. You may obtain access to such products and services on
-            the Crypto.com App. <br /> Please note that the availability of the
-            products and services on the Crypto.com App is subject to
-            jurisdictional limitations. Crypto.com may not offer certain
-            products, features <br />
-            and/or services on the Crypto.com App in certain jurisdictions due
-            to potential or actual regulatory restrictions.
+            Disclaimer: Products within the Leedixpay ecosystem are subject to <br />
+            specific terms of use. Please review our terms and conditions before <br />
+            engaging in any investment or transaction.
           </h3>
 
-          <p className=" mt-8 text-white opacity-75">© 2024 Leedixpay. All rights reserved</p>
+          <p className=" mt-8 text-white opacity-75">
+            © 2024 Leedixpay. All rights reserved
+          </p>
         </div>
       </div>
     </section>

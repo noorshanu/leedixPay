@@ -22,7 +22,7 @@ function Home() {
         <Navbar />
           <HeroSection />
         </div>
-        <div className="mb-10">
+        <div className="mt-16 mb-10">
           <PutMoney/>
         </div>
 

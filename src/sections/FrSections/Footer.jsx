@@ -76,16 +76,9 @@ function Footer() {
 
         <div className=" pr-16 ">
           <h3 className=" text-white font-sohaReg text-base">
-          Le but de ce site Web est uniquement d'afficher des informations
-            concernant les produits et services disponibles sur l'application Crypto.com.
-            Il n'est pas destiné à offrir l'accès à aucun <br /> de ces produits
-            Et services. Vous pouvez accéder à ces produits et services sur
-            l'application Crypto.com. <br /> Veuillez noter que la disponibilité du
-            les produits et services sur l'application Crypto.com sont soumis à
-            limitations juridictionnelles. Crypto.com peut ne pas offrir certains
-            produits, fonctionnalités <br />
-            et/ou services sur l'application Crypto.com dans certaines juridictions en raison
-            aux restrictions réglementaires potentielles ou réelles.
+          Avis de non-responsabilité : les produits de l'écosystème Leedixpay sont soumis à <br />
+            conditions d'utilisation spécifiques. Veuillez consulter nos conditions générales avant <br />
+            s'engager dans tout investissement ou transaction.
           </h3>
 
           <p className=" mt-8 text-white opacity-75">© 2024 Leedixpay. All rights reserved</p>

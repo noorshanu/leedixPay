@@ -10,11 +10,11 @@ export default function HeroSection() {
         <div className="container-wrapper py-6 flex flex-col-reverse  lg:grid lg:grid-cols-[1fr_.7fr] gap-10  justify-between relative pt-[3%] ">
           <div>
             <Typography className="text-[32px] xl:text-[45px]   max-sm:mb-4">
-              <span className=" font-sohaBold lh-0-5">Donner vie aux rêves, un transfert à la fois</span>
+              <span className=" font-sohaBold lh-0-5">Envoyez, encaissez et recevez de l'argent facilement et en toute sécurité dans le monde entier, tout en améliorant vos compétences.</span>
             </Typography>
 
             <Typography className=" xl:text-[0.9rem] font-medium font-sohaReg lh-1_9  mb-8">
-            LeedixPay est un point de vente sécurisé et rapide pour les magasins physiques et les boutiques en ligne qui accepte Ethereum et de nombreuses autres pièces et les convertit instantanément en Dai stablecoin afin que vous n'ayez pas à vous soucier de la volatilité. CONTACTEZ-NOUS !
+            LEEDIXPAY est un écosystème tout-en-un qui permet aux particuliers, aux organisations, aux commerçants et aux entreprises de commerce électronique d'envoyer et de recevoir des paiements facilement et en toute sécurité. De plus, notre plateforme propose des programmes de formation sur mesure pour développer des compétences dans divers domaines. De plus, nous proposons des solutions de prêt et d’emprunt décentralisées et facilement accessibles. Que vous ayez un site internet ou non, créez votre compte LEEDIXPAY dès aujourd'hui et commencez à évoluer avec nous. Recevez vos paiements directement sur votre compte d'argent mobile, votre compte bancaire ou votre portefeuille de crypto-monnaie partout dans le monde, dès maintenant.
             </Typography>
 
             <div className="  my-2">

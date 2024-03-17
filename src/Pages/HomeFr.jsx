@@ -22,7 +22,7 @@ function HomeFr() {
         <Navbar />
           <HeroSection />
         </div>
-        <div className="mb-10">
+        <div className=" mt-10 mb-10">
           <PutMoney/>
         </div>
 

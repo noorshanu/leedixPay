@@ -15,7 +15,7 @@ function AboutFun() {
               LeedixPay
             </h2>
             <p>
-              You don’t need a special <br /> device or skills
+            Simplify international money transfers,    <br /> eliminating excessive fees and delays.
             </p>
           </div>
 
@@ -26,11 +26,11 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-xl sm:text-3xl font-bold mb-1">
-            LeedixPay - Merchant
+            FIAT & CRYPTO EXCHANGE
 
             </h2>
             <p>
-            You don’t need a special <br /> device or skills
+            Access cryptocurrencies easily in   <br />a world embracing technological
             </p>
           </div>
 
@@ -41,10 +41,10 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-xl sm:text-3xl font-bold mb-1">
-            Digital Library
+            RAPID-BORROW
             </h2>
             <p>
-            You don’t need a special <br /> device or skills
+            Quickly borrow money online    <br /> with accessible loan solutions.
             </p>
           </div>
         </div>
@@ -57,10 +57,10 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-xl sm:text-3xl font-bold mb-1">
-            Audiogram training
+            ONLINE MERCHANTS
             </h2>
             <p>
-              You don’t need a special <br /> device or skills
+            Earn passive income by becoming an agent in our network,   <br /> supported by our growth-oriented platform.
             </p>
           </div>
 
@@ -71,10 +71,10 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-xl sm:text-3xl font-bold mb-1">
-            Videogram training
+            MARKETPLACE
             </h2>
             <p>
-              You don’t need a special <br /> device or skills
+            Buy, sell, and exchange quality products at   <br /> competitive prices with our assistance.
             </p>
           </div>
 
@@ -85,10 +85,10 @@ function AboutFun() {
               className=" mx-auto mb-5"
             />
             <h2 className=" font-sohaBold text-xl sm:text-3xl font-bold mb-1">
-            Training
+            RAPID-RETAIL
             </h2>
             <p>
-              You don’t need a special <br /> device or skills
+            Facilitate cashing out for your business worldwide,    <br /> overcoming online payment challenges.
             </p>
           </div>
         </div>

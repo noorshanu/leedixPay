@@ -6,18 +6,15 @@ import Typography from "../components/Typography";
 export default function HeroSection() {
   return (
     <>
-      <section className=" ">
+      <section className=" pb-0 sm:pb-8 ">
         <div className="container-wrapper py-6 flex flex-col-reverse  lg:grid lg:grid-cols-[1fr_.7fr] gap-10  justify-between relative pt-[3%] ">
           <div>
             <Typography className="text-[32px] xl:text-[45px]   max-sm:mb-4">
-              <span className=" font-sohaBold lh-0-5">Bringing Dreams to Life, One Transfer at a Time</span>
+              <span className=" font-sohaBold lh-0-5">Easily and securely send, cash out, and receive money globally, all while enhancing your skills.</span>
             </Typography>
 
             <Typography className=" xl:text-[0.9rem] font-medium font-sohaReg lh-1_9  mb-8">
-              LeedixPay is a secure and fast point of sale for physical stores
-              and online shops that accepts Ethereum and many other coins and
-              instantly converts them to Dai stablecoin so you don’t have to
-              worry about volatility. CONTACT US
+            LEEDIXPAY is an all-in-one ecosystem that enables individuals, organizations, merchants, and e-commerce businesses to send and receive payments securely and easily. Additionally, our platform offers tailored training programs to develop skills in various areas. Furthermore, we provide decentralized lending and borrowing solutions that are easily accessible. Whether you have a website or not, create your LEEDIXPAY account today and start evolving with us. Receive your payments directly to your mobile money account, bank account, or cryptocurrency wallet anywhere in the world, starting now.
             </Typography>
 
             <div className="  my-2">
