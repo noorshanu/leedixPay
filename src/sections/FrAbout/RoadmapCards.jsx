@@ -10,35 +10,30 @@ import SliderNavigationButton from "../../components/SliderNavigationButton";
 const data = [
   {
     title: "Presale",
-    subTitle: "The Birth of LDP",
+    subTitle: "Q1: 2019-2022:",
     content:
-      "Our initial focus is on bringing the LDP community together and spreading awareness about our goal to help everyone get LDP tokens before the first Ethereum ETF approval. A fair presale builds a strong community.",
+      "- Lancement de Newworld pour éduquer et sensibiliser aux nouvelles technologies telles que la blockchain et les crypto-actifs. </br> - Création de l'application LEEDIXPAY avec sa première fonctionnalité, NEWVERSITY, dédiée à l'hébergement de formations vidéo. <br/>  - Expansion de la communauté grâce à des campagnes de sensibilisation et de promotion intensives.",
   },
   {
-    title: "Pre-Launch",
-    subTitle: "LDP Marketing",
+    title: "Prélancement",
+    subTitle: "Q2: 2022-2024:",
     content:
-      "During the presale, we're starting marketing efforts that explain why it's important to hold LDP tokens and ETH before the SEC approves the first Ethereum ETF, highlighting its significance.",
+      "- Analyse approfondie du marché et des besoins émergents. <br/> - Mise en œuvre de nouvelles fonctionnalités telles que les transferts internationaux entre utilisateurs et non-utilisateurs, une vente aux enchères en ligne et un marché de commerce électronique, l'intégration de marchands en ligne, l'échange de crypto-monnaie en monnaie fiduciaire, et des mécanismes de redevances de mise en jeu flexibles sur la plateforme, avec un accent particulier sur la sécurité, l'efficacité et l'intégration des utilisateurs.<br/> - Test de la plateforme avec un petit groupe d'utilisateurs pour recueillir des commentaires et des retours d'expérience utilisateur.",
   },
   {
     title: "LDP",
-    subTitle: "Launch and 5% Burn Tax",
+    subTitle: "Phase de lancement et d'expansion Q3:2024-2025",
     content:
-      "Once launched on a DEX, the token-burning process will automatically reduce the token supply with each transaction, making the remaining token supply scarcer. The transaction tax will decrease 1% each time we reach a milestone in the Ethereum ETF journey.",
+      "Lancement officiel de LEEDIXPAY et distribution de jetons : Début de l'ICO et déploiement complet de la plateforme avec toutes ses fonctionnalités opérationnelles. <br/> - Promotion de LEEDIXPAY à travers divers canaux pour augmenter sa visibilité et son adoption",
   },
   {
-    title: "25% Token Burn",
-    subTitle: "Overtime",
+    title: "Q4: 2025-2026",
+
     content:
-      "As Ethereum grows in the global market, we plan to burn and remove a total of 25% LDP token supply from circulation. With each LDP milestone, 5% of the total supply will be burned step by step.",
-  },
-  {
-    title: "25% Token Burn",
-    subTitle: "Overtime",
-    content:
-      "As Ethereum grows in the global market, we plan to burn and remove a total of 25% LDP token supply from circulation. With each LDP milestone, 5% of the total supply will be burned step by step.",
+      "Expansion des services et des fonctionnalités : Intégration de nouvelles fonctionnalités basées sur les retours des utilisateurs et les avancées technologiques, telles que Rapid-Retail pour les paiements en ligne pour le commerce électronique, et Rapid-Borrow pour les prêts décentralisés à nos utilisateurs. Expansion géographique : Extension progressive des services LEEDIXPAY vers de nouveaux marchés et régions. <br/>",
   },
 ];
+
 
 const Card = ({ title, subTitle, content }) => {
   return (
@@ -52,7 +47,7 @@ const Card = ({ title, subTitle, content }) => {
         <BsArrowRight className="text-4xl" />
       </div>
 
-      <p className="text-base opacity-70">{content}</p>
+      <p className="text-base opacity-70" dangerouslySetInnerHTML={{ __html: content }}></p>
     </div>
   );
 };

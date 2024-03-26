@@ -1,59 +1,44 @@
-import TokenCard from "../components/TokenCard";
+import TokenCard from "../../components/TokenCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import SliderNavigationButton from "../components/SliderNavigationButton";
+import SliderNavigationButton from "../../components/SliderNavigationButton";
 
 const data = [
   {
-    title: "$25K Volume",
-    subtitle: "Trading Volume",
+    title: "NOUVEAUVERSITÉ",
+    subtitle: "est maintenant disponible sur notre plateforme.",
     imageSrc: "/images/icons/etf_volume.svg",
     description: [
-      "Total LDP trading volume hits $100 million",
-      "5% of total supply is burned (6,000,000 tokens)",
-      "Transaction tax reduced from 5% to 4%",
+      "Apprendre",
+      "Développer et Grandir",
+      "Nous vous aidons à développer vos compétences et à rester compétitif dans tous les domaines.",
     ],
   },
   {
-    title: "ETF Approval",
-    subtitle: "First ETF Approval",
+    title: "Échange Crypto & Fiat",
+    subtitle: "Maintenant disponible sur notre plateforme.",
     imageSrc: "/images/icons/etf_approval.svg",
     description: [
-      "SEC approves first LeedixPay in the U.S.",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 4% to 3%",
+      "Achetez des cryptomonnaies avec votre solde LeedixPay. Achetez maintenant !",
     ],
   },
   {
-    title: "ETF Launch",
-    subtitle: "Launch Date",
+    title: "Redevances Flexibles de Mise en Jeu",
+    subtitle: "Maintenant disponible sur notre plateforme.",
     imageSrc: "/images/icons/etf_launch.svg",
     description: [
-      "First LeedixPay launches in the U.S.",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 3% to 2%",
+      "Faites fructifier votre argent en investissant de manière flexible et intelligente",
+      "Commencez maintenant et grandissez.",
     ],
   },
   {
-    title: "ETF (AUM) $1B",
-    subtitle: "ETF Assets $1 Billion",
+    title: "Prochainement : Rapid-Emprunt",
+    subtitle: "Empruntez de manière transparente et sécurisée.",
     imageSrc: "/images/icons/etf_aum.svg",
     description: [
-      "LeedixPay assets under management (AUM) hits $1 billion value",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 2% to 1%",
-    ],
-  },
-  {
-    title: "Ethereum $25K",
-    subtitle: "$25K ETH Price",
-    imageSrc: "/images/icons/etf_bitcoin.svg",
-    description: [
-      "The ETH price closes a daily candle above $25,000",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 1% to 0%",
+      "Restez en avance pour votre entreprise.",
     ],
   },
 ];

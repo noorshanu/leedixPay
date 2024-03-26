@@ -3,7 +3,7 @@ import React from "react";
 import Hero from "../sections/AboutSections/Hero";
 import About from "../sections/FrAbout/About";
 
-import Tokenomics from "../sections/Tokenomics";
+import Tokenomics from "../sections/FrAbout/Tokenomics";
 import Footer from "../sections/Footer";
 import Team from "../sections/FrAbout/Team";
 

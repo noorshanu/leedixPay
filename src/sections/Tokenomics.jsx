@@ -7,55 +7,44 @@ import SliderNavigationButton from "../components/SliderNavigationButton";
 
 const data = [
   {
-    title: "$25K Volume",
-    subtitle: "Trading Volume",
+    title: "NEWVERSITY",
+    subtitle: "is now live on our platform.",
     imageSrc: "/images/icons/etf_volume.svg",
     description: [
-      "Total LDP trading volume hits $100 million",
-      "5% of total supply is burned (6,000,000 tokens)",
-      "Transaction tax reduced from 5% to 4%",
+      "Learn",
+      "Develop and Grow",
+      "We help you develop your skills and stay competitive in all fields.",
     ],
   },
   {
-    title: "ETF Approval",
-    subtitle: "First ETF Approval",
+    title: "Exchange Crypto & Fiat",
+    subtitle: "Now available on our platform.",
     imageSrc: "/images/icons/etf_approval.svg",
     description: [
-      "SEC approves first LeedixPay in the U.S.",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 4% to 3%",
+      "Purchase cryptocurrencies using your LeedixPay balance. Buy now !",
+      
     ],
   },
   {
-    title: "ETF Launch",
-    subtitle: "Launch Date",
+    title: "Royalties Flexible Staking",
+    subtitle: "Now available on our platform.",
     imageSrc: "/images/icons/etf_launch.svg",
     description: [
-      "First LeedixPay launches in the U.S.",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 3% to 2%",
+      "Grow your money by smartly investing flexibly",
+      "Start now and grow.",
+      
     ],
   },
   {
-    title: "ETF (AUM) $1B",
-    subtitle: "ETF Assets $1 Billion",
+    title: "Coming Soon: Rapid-Borrow",
+    subtitle: "Borrow transparently and securely.    ",
     imageSrc: "/images/icons/etf_aum.svg",
     description: [
-      "LeedixPay assets under management (AUM) hits $1 billion value",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 2% to 1%",
+      "Stay ahead for your business.",
+     ,
     ],
   },
-  {
-    title: "Ethereum $25K",
-    subtitle: "$25K ETH Price",
-    imageSrc: "/images/icons/etf_bitcoin.svg",
-    description: [
-      "The ETH price closes a daily candle above $25,000",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 1% to 0%",
-    ],
-  },
+  
 ];
 
 function Tokenomics() {

@@ -16,12 +16,12 @@ function App() {
         {/* English Routes */}
         <Route path="/en" element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/en/about-us" element={<AboutUs />} />
+        <Route path="/about-en" element={<AboutUs />} />
         <Route path="/about-us" element={<AboutUs />} />
         
         {/* French Routes */}
         <Route path="/fr/" element={<HomeFr/>} />
-        <Route path="/fr/about-us" element={<AboutUsFr />} />
+        <Route path="/about-fr" element={<AboutUsFr />} />
         
      
       </Routes>

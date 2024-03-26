@@ -12,37 +12,36 @@ function Home() {
   return (
     <>
       <div className=" ">
-    
         <div className="mb-2 relative z-10">
-        <img
-          src="/images/mask.png"
-          className="absolute top-0 right-0 w-auto sm:h-[83.5%] h-[400px]  -z-10 "
-          alt=""
-        />
-        <Navbar />
+          <img
+            src="/images/mask.png"
+            className="absolute top-0 right-0 w-auto sm:h-[83.5%] h-[400px]  -z-10 "
+            alt=""
+          />
+          <Navbar />
           <HeroSection />
         </div>
         <div className="mt-16 mb-10">
-          <PutMoney/>
+          <PutMoney />
         </div>
 
         <div className="mb-10">
-         <Cta/>
+          <Cta />
         </div>
 
         <div className="mb-10">
-       <AboutFun/>
+          <AboutFun />
         </div>
 
         <div className="mb-10">
-       <Lexipay/>
+          <Lexipay />
         </div>
         <div className="mb-10">
-       <Invest/>
-       <Features/>
+          <Invest />
+          <Features />
         </div>
 
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

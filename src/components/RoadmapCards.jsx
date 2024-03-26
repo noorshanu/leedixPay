@@ -32,12 +32,7 @@ const data = [
     content:
       "Expansion of services and features: Integration of new features based on user feedback and technological advancements, such as Rapid-Retail for online payments for e-commerce, and Rapid-Borrow for decentralized loans to our users. Geographical expansion: Gradually extending LEEDIXPAY services to new markets and regions. <br/>",
   },
-  {
-    title: "25% Token Burn",
-    subTitle: "Overtime",
-    content:
-      "As Ethereum grows in the global market, we plan to burn and remove a total of 25% LDP token supply from circulation. With each LDP milestone, 5% of the total supply will be burned step by step.",
-  },
+ 
 ];
 
 const Card = ({ title, subTitle, content }) => {

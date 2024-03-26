@@ -3,8 +3,8 @@ import { BsChevronDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const languages = [
-  { to: "/en/about-us", name: "English", flag: "https://flagsapi.com/GB/flat/64.png" },
-  { to: "/fr/about-us", name: "French", flag: "https://flagsapi.com/FR/flat/64.png" },
+  { to: "/about-us", name: "English", flag: "https://flagsapi.com/GB/flat/64.png" },
+  { to: "/about-fr", name: "French", flag: "https://flagsapi.com/FR/flat/64.png" },
 ];
 
 const DropdownItem = ({ text, flag, to, onClick }) => {
