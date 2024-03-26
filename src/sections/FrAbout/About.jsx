@@ -21,11 +21,16 @@ function About() {
             </h2>
 
             <p className=" max-w-5xl font-sohaReg text-lg">
-              LeedixPay est un point de vente sécurisé et rapide pour les
-              magasins physiques et les boutiques en ligne qui <br />
-              accepte Ethereum et de nombreuses autres pièces et les convertit
-              instantanément en Dai <br /> stablecoin pour que vous n'ayez pas à
-              le faire vous inquiétez de la volatilité. CONTACTEZ-NOUS
+            LEEDIXPAY est un écosystème tout-en-un qui permet aux individus,
+              organisations, commerçants et entreprises de commerce électronique pour envoyer et
+              recevez des paiements facilement et en toute sécurité. De plus, notre plateforme
+              propose des programmes de formation sur mesure pour développer des compétences dans divers
+              zones. De plus, nous proposons des prêts et des emprunts décentralisés
+              des solutions facilement accessibles. Que vous ayez un site Web
+              ou pas, créez votre compte LEEDIXPAY aujourd'hui et commencez à évoluer
+              avec nous. Recevez vos paiements directement sur votre mobile money
+              compte, compte bancaire ou portefeuille de crypto-monnaie n'importe où dans le
+              monde, à partir de maintenant.
             </p>
           </div>
         </div>
