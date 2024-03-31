@@ -7,7 +7,8 @@ function PutMoney() {
       <div className="container-wrapper">
         <div className=" flex  flex-col sm:flex-row justify-between gap-10 items-center">
           <div className=" max-w-lg w-full">
-            <PresaleBox />
+            {/* <PresaleBox /> */}
+            <img src="images/world.png" alt="" className=" h-[350px]" />
           </div>
 
           <div>

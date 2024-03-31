@@ -14,13 +14,12 @@ function Team() {
 
           <div className=' grid grid-cols-1 sm:grid-cols-3 gap-5 py-8'>
 
-           
-              <img src="images/team.png" alt="" className=' mt-3 h-[300px] mx-auto' />
-              <img src="images/team.png" alt="" className=' mt-3 h-[300px] mx-auto' />
-              <img src="images/team.png" alt="" className=' mt-3 h-[300px] mx-auto' />
-              <img src="images/team.png" alt="" className=' mt-3 h-[300px] mx-auto'/>
-              <img src="images/team.png" alt="" className=' mt-3 h-[300px] mx-auto' />
-              <img src="images/team.png" alt="" className=' mt-3 h-[300px] mx-auto' />
+          <img src="/images/4.png" alt="" className=' mt-3 h-[300px] mx-auto'/>
+          <img src="/images/1.png" alt="" className=' mt-3 h-[300px] mx-auto' />
+              <img src="/images/2.png" alt="" className=' mt-3 h-[300px] mx-auto' />
+              <img src="/images/3.png" alt="" className=' mt-3 h-[300px] mx-auto' />
+          
+         
           
 
 
