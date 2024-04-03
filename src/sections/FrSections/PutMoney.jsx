@@ -15,16 +15,17 @@ function PutMoney() {
             <img src="images/logo.png" alt="" className=" mb-4 sm:mt-0 mt-4" />
 
             <h2 className=" font-sohaBold text-3xl sm:text-5xl py-2 mb-4 lh-1_5">
-            
-Investissez votre argent dans le meilleur écosystème <br /> et laissez-le travailler pour vous.
+              Investissez votre argent dans le meilleur écosystème <br /> et
+              laissez-le travailler pour vous.
             </h2>
 
             <p className=" max-w-5xl font-sohaReg text-lg">
-            L'écosystème Leedixpay est complet et vous offre mieux
-              retours sur investissement avec son <br /> énorme potentiel. Achetez maintenant et
-              commencez votre voyage vers le succès. Vous avez tout <br /> à gagner, avec
-              aucun risque de volatilité car vous pouvez le convertir rapidement en stablecoin sur
-              notre plateforme quand vous le souhaitez.
+              L'écosystème Leedixpay est complet et vous offre mieux retours sur
+              investissement avec son <br /> énorme potentiel. Achetez
+              maintenant et commencez votre voyage vers le succès. Vous avez
+              tout <br /> à gagner, avec aucun risque de volatilité car vous
+              pouvez le convertir rapidement en stablecoin sur notre plateforme
+              quand vous le souhaitez.
             </p>
 
             <div className=" flex flex-col sm:flex-row gap-4 items-center mt-14">

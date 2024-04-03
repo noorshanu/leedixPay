@@ -17,21 +17,21 @@ function Footer() {
           <div className="flex flex-col sm:flex-row items-center gap-4 ">
             <div className="bg-white h-[1px] w-44"></div>
             <div className=" flex items-center gap-4 text-white">
-              <a href="/" className=" text-xl  hover:text-[#1a4093]">
+              <a href="https://twitter.com/LEEDIXPAY" className=" text-xl  hover:text-[#1a4093]">
                 <BsTwitterX />
               </a>
-              <a href="/" className=" text-xl hover:text-[#1a4093]">
+              {/* <a href="/" className=" text-xl hover:text-[#1a4093]">
                 <BsInstagram />
-              </a>
+              </a> */}
 
-              <a href="/" className=" text-xl hover:text-[#1a4093]">
+              <a href="https://www.facebook.com/Leedixpay?mibextid=hu50Ix" className=" text-xl hover:text-[#1a4093]">
                 <BsFacebook />
               </a>
 
-              <a href="/" className=" text-xl hover:text-[#1a4093]">
+              {/* <a href="/" className=" text-xl hover:text-[#1a4093]">
                 <FaLinkedinIn />
-              </a>
-              <a href="/" className=" text-xl hover:text-[#1a4093]">
+              </a> */}
+              <a href="https://t.me/leedixpayapp" className=" text-xl hover:text-[#1a4093]">
                 <FaTelegram />
               </a>
             </div>

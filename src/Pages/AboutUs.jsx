@@ -18,7 +18,7 @@ function AboutUs() {
     <Roadmap/>
     <RoadmapCards/>
     <Tokenomics/>
-    <Team/>
+    {/* <Team/> */}
     <Footer/>
   </div>
   
