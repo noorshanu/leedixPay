@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -26,17 +26,31 @@ const DropdownItem = ({ text, flag, to, onClick }) => {
 
 const LanguageSwitchers = ({ changeLanguage }) => {
   const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
+  const dropdownRef = useRef(null);
 
   const closeDropdown = () => setIsDropdownOpen(false);
   const toggleDropdown = () => setIsDropdownOpen((val) => !val);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        closeDropdown();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="relative">
+    <div ref={dropdownRef} className="relative">
       <button
         onClick={toggleDropdown}
         className="flex items-center justify-between max-lg:border max-lg:h-11 max-lg:px-4 max-lg:mt-8 space-x-1.5 py-1 relative max-lg:w-full"
       >
-         <span className="flex space-x-2 items-center">
+        <span className="flex space-x-2 items-center">
           <span className="font-medium cursor-pointer text-sm font-sohaMed hover:underline">Language</span>
           <BsChevronDown className="hidden lg:block font-medium cursor-pointer text-sm font-sohaMed hover:underline mt-1" />
         </span>

@@ -80,15 +80,15 @@ export default function Navbar() {
             >
               About
             </Typography>
-            <Typography
-              as={Link}
-              to='/'
+            <a
+             
+              href='#services'
               variant="sm"
               className="font-medium cursor-pointer text-sm font-sohaMed hover:underline"
               onClick={() => setSidebarVisibility(false)}
             >
               Services
-            </Typography>
+            </a>
           
             <Typography
              

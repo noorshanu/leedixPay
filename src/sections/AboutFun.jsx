@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutFun() {
   return (
-    <section className=" mb-[6rem] mt-[3rem]">
+    <section className=" mb-[6rem] mt-[3rem]" id="services">
       <div className="  container-wrapper p-6">
         <div className=" flex justify-evenly flex-col sm:flex-row items-center mb-[7rem]">
           <div className=" text-center mb-8 sm:mb-2">
