@@ -120,7 +120,8 @@ export default function Navbar() {
           <div className=" ml-0 mt-3 sm:mt-0 sm:ml-[8rem] flex gap-4 items-center">
           <Typography
               as={Link}
-              to='/'
+              target="_blank"
+              to='https://client.leedixpay.com/login'
               variant="sm"
               className="font-medium cursor-pointer text-sm font-sohaMed underline "
               onClick={() => setSidebarVisibility(false)}
@@ -128,11 +129,11 @@ export default function Navbar() {
               Login
             </Typography>
 
-            <button className=" btn-nav  px-2 sm:px-4 py-3  ">
+            <a href="https://client.leedixpay.com/register" target="_blank" className=" btn-nav  px-2 sm:px-4 py-3  ">
               <span className="text-white font-sohaBold font-bold text-base sm:text-xs hover:underline">
                 REGISTER NOW
               </span>
-            </button>
+            </a>
           </div>
           </aside>
         </div>
