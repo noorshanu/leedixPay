@@ -39,7 +39,7 @@ export default function HeroSection() {
                 />
                 <a
                   href="/"
-                  className="btn-hero text-white px-12 py-4 text-base font-sohaBold w-full sm:w-auto"
+                  className="btn-hero text-white px-5 py-4 text-base font-sohaBold w-full sm:w-auto"
                 >
                   SUBSCRIBE NOW
                 </a>
