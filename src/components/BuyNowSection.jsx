@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react';
+import CopyTextModal from './CopyTextModel';
 
 function BuyNowSection() {
+    const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+
+    setTimeout(() => {
+      setCopied(false);
+    }, 5000);
+  };
   return (
    <section className=' bg-white py-12'>
     <div className=' container-wrapper'>
@@ -10,9 +21,11 @@ function BuyNowSection() {
             <div>
                 <img src="images/qr2.png" alt="" className=' h-[300px] mx-auto' />
 
-                <p className=' text-lg font-semibold'>
+                {/* <p className=' text-xs sm:text-lg font-semibold hidden sm:block'>
                 0x9d0c7c09c712a8a7cb4d9889849e126dc78be6d0  
-                </p>
+                </p> */}
+
+      <CopyTextModal text='0x9d0c7c09c712a8a7cb4d9889849e126dc78be6d0 '/>
             </div>
 
             <div>
