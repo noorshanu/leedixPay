@@ -47,23 +47,23 @@ function Footer() {
           <div className=" grid grid-cols-2 sm:flex flex-col sm:flex-row justify-between gap-10 mt-8 sm:mt-0">
             <div className=" text-white">
               <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
-                Products
+                Useful Links
               </h2>
 
               <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
-                Sitemap
+                Home
               </p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Crypto</p>
+              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Invest</p>
               <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
-                Video Course
+                About
               </p>
               <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
-                Pdf Course
+                Services
               </p>
             </div>
             <div className=" text-white">
               <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
-                Products
+               Product
               </h2>
 
               <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
@@ -77,22 +77,7 @@ function Footer() {
                 Pdf Course
               </p>
             </div>
-            <div className=" text-white">
-              <h2 className=" text-white font-sohaBold text-xl text-center mb-3">
-                Products
-              </h2>
-
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
-                Sitemap
-              </p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">Crypto</p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
-                Video Course
-              </p>
-              <p className="mb-1 hover:text-[#1a4093] cursor-pointer">
-                Pdf Course
-              </p>
-            </div>
+    
           </div>
         </div>
 
