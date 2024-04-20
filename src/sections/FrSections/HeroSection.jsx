@@ -50,7 +50,7 @@ export default function HeroSection() {
                   ABONNEZ-VOUS MAINTENANT
                 </a>
                 <a
-                  href="/"
+                  href="/presale"
                   className="btn-hero text-white px-6 py-4 text-base font-sohaBold w-full sm:w-auto"
                 >
               Buy now

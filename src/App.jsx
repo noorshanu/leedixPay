@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import AboutUsFr from "./Pages/AboutUsFr";
 import HomeFr from "./Pages/HomeFr";
+import BuyNow from "./Pages/BuyNow";
 
 
 
@@ -16,6 +17,7 @@ function App() {
         {/* English Routes */}
         <Route path="/en" element={<Home />} />
         <Route path="/" element={<Home />} />
+        <Route path="/presale" element={<BuyNow/>} />
         <Route path="/about-en" element={<AboutUs />} />
         <Route path="/about-us" element={<AboutUs />} />
         
